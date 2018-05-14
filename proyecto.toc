@@ -1,4 +1,4 @@
-\select@language {spanish}
+\babel@toc {spanish}{}
 \contentsline {chapter}{Introducci\IeC {\'o}n}{\es@scroman {vii}}{chapter*.8}
 \contentsline {section}{\numberline {1.1}Motivaci\IeC {\'o}n\cite {Motivacion1, Motivacion2, Motivacion3, Motivacion4, Motivacion5, Motivacion6, Motivacion7, Motivacion8, Motivacion9}}{\es@scroman {vii}}{section.1.1}
 \contentsline {section}{\numberline {1.2}Diccionario de acr\IeC {\'o}nimos}{\es@scroman {viii}}{section.1.2}
