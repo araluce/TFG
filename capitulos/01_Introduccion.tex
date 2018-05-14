@@ -1,0 +1,184 @@
+\setcounter{chapter}{1}
+\setcounter{section}{0}
+\chapter{Introducción}
+
+\section{Motivación\cite{Motivacion1, Motivacion2, Motivacion3, Motivacion4, Motivacion5, Motivacion6, Motivacion7, Motivacion8, Motivacion9}}
+
+Uno de los principales problemas que sufre la Universidad en la actualidad es la falta de motivación y compromiso de los estudiantes a la hora de participar activamente en su aprendizaje. Esta falta de interés y motivación puede estar determinada, en gran medida, por el rol pasivo que desempeñan los estudiantes en las metodologías de enseñanza tradicionales (Martí-Parreño, 2015), especialmente las generaciones más jóvenes, los nativos digitales, esto es, estudiantes que hacen un uso intensivo de la tecnología y de la interactividad digital (Prensky, 2001). Por tanto, la necesidad de mejorar el atractivo de la docencia y adoptar nuevas metodologías de enseñanza-aprendizaje activas, que favorezcan la motivación e implicación del alumnado, se ha convertido en todo un reto para la Universidad que su profesorado deberá afrontar cuanto antes (Contreras y Eguia, 2016; De Jorge et al., 2011; Kiryakova, Angelova, y Yordanova, 2014; Martínez González, 2011). \\
+
+En este sentido, una poderosa estrategia para motivar y favorecer el aprendizaje del alumnado es la gamificación, entendida como el uso de elementos de diseño del juego en contextos no lúdicos con la finalidad de motivar a los participantes (Deterding et al., 2011). Para ello incorpora elementos de los videojuegos como el contexto, los desafíos o las recompensas, aumentando la interacción del alumnado con el entorno de aprendizaje y acabar modificando su conducta (González González y Mora, 2015; Prieto et al., 2014).\\
+
+
+La gamificación nos ofrece ciertas ventajas frente a las metodologías de enseñanza tradicionales:\\
+
+\begin{itemize}
+\item Motivación del alumnado.
+\item Desarrollo de habilidades mediante el crecimiento gradual de la dificultad para realizar una tarea.
+\item Fomenta la competencia y ofrece un reconocimiento (Rankings).
+\item Fomenta la conexión social, ya que los estudiantes viven juntos una experiencia estimulante.
+\end{itemize}
+
+\section{Diccionario de acrónimos}
+\begin{itemize}
+\item \ac{TdV}
+\item \ac{GdT}
+\item \ac{Ciudadano}
+\item \ac{Metronomista}
+\end{itemize}
+
+\section{Organización de secciones [Rol=Ciudadano]}
+\dirtree{%
+.1 Login/Home[Rol=Ciudadano].
+.2 Trabajo.
+.3 Jornada Laboral.
+.3 Inspección de Trabajo.
+.3 Paga Extra.
+.3 Proyecto de Innovación.
+.2 Ocio.
+.3 Deporte.
+.3 Apuestas.
+.3 Vacaciones.
+.3 Altruismo.
+.4 Minas.
+.4 Donar TdV.
+.3 Amigos.
+.4 Chat.
+.4 Fotos.
+.2 Alimentación.
+.3 Comida.
+.3 Agua.
+.2 Préstamos.
+.2 Ambulatorio.
+.2 Felicidad.
+.2 Jugador.
+.3 Mis Datos.
+.3 Nivel.
+.3 Clasificación.
+.3 Movimientos.
+}
+
+\newpage
+\section{Funciones de cada sección [Rol=Ciudadano]}
+
+\subsection{Todas las secciones}
+
+\subsubsection{Mostrar el TdV}
+\begin{figure}[ht]
+  \centering
+    \includegraphics[width=0.5\textwidth]{imagenes/Objetivo1.png}
+    \caption{Objetivo 1 - Cuenta regresiva}
+    \label{objetivoIm1}
+\end{figure}
+
+Es un reloj regresivo que muestra al usuario el TdV que le queda. Como pieza clave del proyecto debe mostrarse en cada una de las secciones que el usuario visualice ya que el ciudadano tomará sus decisiones en función de éste.\\
+
+Las únicas secciones donde el TdV no se muestra es en la sección de \textbf{Chat} y \textbf{Jugador}, por comodidad para el usuario.
+%\begin{table}[ht]
+%\centering
+%\resizebox{\textwidth}{!}{%
+%\begin{tabular}{|
+%>{\columncolor[HTML]{656565}}r |l|}
+%\hline
+%\textbf{Objetivo 1}  & \cellcolor[HTML]{9B9B9B}\textit{Mostrar siempre el TdV}                                                                                         \\ \hline
+%\textbf{Sección}     & Todas                                                                                                                                           \\ \hline
+%\textbf{Descripción} & \begin{tabular}[c]{@{}l@{}}En todas las plantillas se mostrará un reloj regresivo correspondiente \\ al TdV del ciudadano logueado\end{tabular} \\ \hline
+%\end{tabular}%
+%}
+%\caption{Objetivo 1 - Mostrar TdV}
+%\label{objetivo1}
+%\end{table}
+
+\subsubsection{Mostrar advertencias del sistema}
+\begin{figure}[ht]
+  \centering
+    \includegraphics[width=0.4\textwidth]{imagenes/Objetivo2.png}
+    \includegraphics[width=0.4\textwidth]{imagenes/Objetivo2b.png}
+    \caption{Objetivo 2 - Mostrar mensajes}
+    \label{objetivoIm2}
+\end{figure}
+
+En la figura superior vemos dos claros ejemplos donde el metronomista (sistema) debe mostrar un aviso a un ciudadano específico (mensaje directo) o bien a todos los ciudadanos (mensaje difundido).\\
+
+Es importante que el ciudadano pueda visualizar estos avisos allá donde vaya para que pueda tomar decisiones inmediatas en el caso de los mensajes directos y que además no suponga una desventaja frente al resto de ciudadanos en el caso de los mensajes difundidos.
+
+\subsubsection{Mostrar alertas}
+
+El sistema de alertas permite avisar a un ciudadano de que se han producido nuevos eventos. Los eventos comunicados mediante este sistema alertas son los siguientes:\\
+
+\begin{table}[h!]
+     \begin{center}
+     \begin{tabular}{ c  c  c  c }
+      \bottomrule
+            \\
+      \raisebox{-0.2ex}{\begin{tabular}[c]{@{}l@{}}\includegraphics[width=0.25\textwidth, height=30mm]{imagenes/Aviso-Inspeccion.png}\\Avisa de cinco\\nuevas publica-\\ciones de test\\ de inspección.\end{tabular}}
+     
+      & 
+      \raisebox{-0.2ex}{\begin{tabular}[c]{@{}l@{}}\includegraphics[width=0.25\textwidth, height=30mm]{imagenes/Aviso-Paga.png}\\Avisa de la pu-\\blicación de un\\nuevo reto de\\paga extra.\end{tabular}}
+      & 
+      \raisebox{-0.2ex}{\begin{tabular}[c]{@{}l@{}}\includegraphics[width=0.25\textwidth, height=30mm]{imagenes/Aviso-Mina.png}\\Avisa de que una\\nueva mina está\\disponible para ser\\ desactivada.\end{tabular}}
+	  &
+      \raisebox{-0.2ex}{\begin{tabular}[c]{@{}l@{}}\includegraphics[width=0.25\textwidth, height=30mm]{imagenes/Aviso-Chat.png}\\Avisa del número de\\mensajes de chat pen-\\dientes de ser leídos\\por el ciudadano.\\\end{tabular}}
+      \\
+      \bottomrule
+      \end{tabular}
+      \caption{Sistema de alertas}
+      \label{tbl:Sistema de alertas}
+      \end{center}
+\end{table}
+
+\newpage
+
+\subsection{Home}
+
+La página principal debe mostrar las diferentes secciones principales de forma circular haciendo analogía a las posiciones de los números de un reloj de manera que se muestren de forma ordenada al uso que le darán los ciudadanos.\\
+
+\begin{wrapfigure}{l}{0.25\textwidth}
+    \centering
+    \includegraphics[width=0.25\textwidth]{imagenes/Objetivo4.png}
+    \caption{Objetivo 3 - Menú circular}
+    \label{objetivoIm3}
+\end{wrapfigure}
+\noindent
+\textbf{1. Jugador: } En esta sección los ciudadanos pueden ver todos sus movimientos bancarios, su posición en el ranking, niveles y personalizar su imagen a los demás.\\
+
+\noindent
+\textbf{2. Trabajo: } Todos los días deben entrar para completar su jornada laboral\\
+
+\noindent
+\textbf{3. Ocio: } Es donde se publican las minas, acceden a las vacaciones y tienen sus redes sociales. Suele ser la segunda sección más usada.\\
+
+\noindent
+\textbf{4. Alimentación: } Esta sección es una de las principales puesto que deben estar atentos a sus barras de energía.\\
+
+\noindent
+\textbf{5. Préstamos: } Suele usarse más que la sección de \textbf{Asistencia} ya que conforme el curso avanza las condiciones se hacen más duras y necesitan acudir al metronomista en busca de un préstamo.\\
+
+\noindent
+\textbf{6. Asistencia: } Sección en la que un ciudadano puede solicitar una tutoría con el GdT.\\
+
+\noindent
+\textbf{7. Felicidad: } En ella subirán propuestas y pruebas 3 veces en todo el curso.
+
+\newpage
+
+\subsection{Home / Trabajo / Jornada Laboral}
+
+Esta sección consiste en 
+
+\newpage
+\section{Objetivos de un ciudadano \$inTime}
+
+El objetivo principal de un ciudadano de \$inTime será obtener el máximo TdV que pueda para no morir y obtener así una buena calificación en su nota final. Son muchas y variadas las formas por las que podrán obtener más tiempo, o a perderlo. Algunas de ellas son:
+
+\begin{itemize}
+\item Jornada Laboral (sustento base diario): su trabajo diario (integración con Twitter).
+\item Compra de alimentación y agua: los ciudadanos pueden comprar productos alimenticios o bebida (retos) para no morir de hambre o deshidratación. Con la corrección de cada reto, el GdT otorgará una bonificación de tiempo correspondiente a su calificación.
+\item Inspección de trabajo: preguntas de tipo test sorpresa que quitan 1 hora de TdV recuperables si se contesta bien a las cuestiones.
+\item Paga extra: retos adicionales que pueden realizar los 6 primeros ciudadanos que lo soliciten para obtener un ingreso extra.
+\item Desactivación de minas: El GdT esconderá un código QR y la misión del ciudadano es desactivarla (leer el código QR e insertarlo en el campo de desactivación) antes de que explote, quien consiga desactivarla recibe una bonificación.
+\item Apuestas: Se realizan competiciones entre distritos (retos físicos) y la App permite al ciudadano apostar cualquier cosa que permita el GdT.
+\item Donaciones: Un ciudadano podrá realizar donaciones al resto de ciudadanos que lo puedan necesitar.
+\item Préstamos: Un ciudadano podrá solicitar TdV (sujeto a intereses variables) al metronomista en un momento de necesidad.
+
+\end{itemize} 
+
