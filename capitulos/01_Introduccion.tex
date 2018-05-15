@@ -21,43 +21,243 @@ La gamificación nos ofrece ciertas ventajas frente a las metodologías de ense�
 \section{Diccionario de acrónimos}
 \begin{itemize}
 \item \ac{TdV}
-\item \ac{GdT}
-\item \ac{Ciudadano}
+\item \ac{Guidoogway}
+\item \ac{Padawan}
 \item \ac{Metronomista}
+\item \ac{Reto}
+\item \ac{Badge}
 \end{itemize}
 
-\section{Organización de secciones [Rol=Ciudadano]}
+\section{Los retos en SinTime}
+Los retos en SinTime se podrían reducir a ejercicios/entregas en su definición más simple aunque se le da un significado totalmente diferente. Son retos porque se desafía al alumno a realizarlos, y se le da la oportunidad de ir mejorándolo hasta alcanzar la máxima ``calificación".\\
+
+Como en un juego, al realizar una entrega de un reto el alumno consigue un score/puntuación y, por medio de la reentrega conseguimos que el alumno quiera superarse, reintentarlo hasta conseguir el máximo feddback posible.\\
+
+La relación entre un reto y un alumno tendrá uno de los siguiente estados:
+\begin{itemize}
+	\item \textbf{Comprado}: Un alumno que ha comprado ese reto con su TDV
+	\item \textbf{Entregado}: Después de la compra podrá entregar el reto.
+	\item \textbf{Calificado}: El docente ha calificado la entrega y asignado un badge.
+\end{itemize}
+
+Para paliar la monotía se han definido para este proyecto diferentes tipos de retos:
+
+\begin{itemize}
+	\item Seguimiento de maestro Jedi
+	\item Pruebas de nivel
+	\item Dominio de la fuerza
+	\item Víveres
+	\item Audiencia ante el Senado Galáctico
+	\item Viajes Interplanetarios
+	\item Felicidad
+\end{itemize}
+
+\subsection{Seguimiento de maestro Jedi}
+Consiste en guardar un mínimo de Tweets diarios que tengan cierta relevancia en el mundo de la Educación Física.\\
+
+Si al final del día el alumno ha guardado un número mínimo de Tweets (especificado por el docente), se le ingresará en su cuenta bancaria un TDV (especificado por el docente).
+
+\subsection{Pruebas de nivel}
+Consiste en un \textbf{reto gratuito} compuesto por un enunciado en el que el alumno realizará una entrega de un fichero con una presentación que desarrollará en clase frente a los compañeros. La presentación que hará estará marcada por el enunciado del reto.\\
+
+El profesor marcará un número máximo de alumnos que puedan ``pedirse'' el reto, sólo podrán realizarlo los X alumnos primeros en marcar el reto como "Pedido" (comprado internamente).
+
+\subsection{Dominio de la fuerza}
+El docente podrá lanzar a sus alumnos retos sorpresas, este tipo de reto resta 1 día de vida a todos los alumnos al ser lanzado recuperable únicamente si contestan correctamente al cuestionario.
+
+\subsection{Víveres}
+Para hacer la experiencia más inmersiva creamos a los alumnos la necesidad de alimentarse e hidratarse. Para ello lanzamos dos tipos de retos; \textbf{Comida} y \textbf{Agua}. La necesidad de realizar estos tipos de retos surge al crear una barra de energía para la sección de comida y otra barra de energía para la sección de agua. Estas barras se irán vaciando conforme pasen días sin entregas realizadas.\\
+
+Estos retos son comprados por el alumno (tienen un coste en tiempo), al ser corregidos por el docente se le realizará un ingreso correspondiente al badge recibido.\\
+
+Además, estos retos podrán ser grupales (realizados por todo el clan) o individuales. Añadir que para la sección de Agua, los retos individuales no podrán ser elegidos directamente, el alumno solicitará un reto individual y el sistema le asignará un reto aleatoriamente.
+
+\subsection{Audiencia ante el Senado Galáctico}
+Este reto se lanza la última semana de la asignatura. En esta sección, el alumno realizará la entrega de su proyecto final, en el que reflejará todo lo aprendido durante toda su experiencia.
+
+\subsection{Viajes Interplanetarios}
+Es un tipo de reto deportivo. Durante cada semana se especifican unos requisitos para cubrir durante la semana bien corriendo o bien en bicicleta.\\
+
+En este tipo de retos el docente especifica una velocidad media y duración míminas (en caso de bicicleta) y un ritmo medio y duración minimas (en caso de running). Los alumnos por su lado intentarán cubrir esa duración durante la semana en la modalidad que prefieran y en diferentes sesiones (mínimo 3 sesiones distintas). Si el alumno cumple los requisitos de la semana en la modalidad seleccionada se le hará un ingreso automático al final de la semana determinado por el docente.
+
+\subsection{Retos de Felicidad}
+Estos retos son más una labor humanitaria por parte de los alumnos, es un reto totalmente opcional sin coste alguno en el que un alumno propone una labor social a realizar durante 3 meses en una primera entrega. La segunda entrega que realice será una evidencia de la labor realizada.\\
+
+Este reto tendrá como respuesta un badge con el ingreso de tiempo correspondiente al mismo.
+
+\newpage
+
+\section{Organización de secciones [Rol=Guidoogway]}
 \dirtree{%
-.1 Login/Home[Rol=Ciudadano].
-.2 Trabajo.
-.3 Jornada Laboral.
-.3 Inspección de Trabajo.
-.3 Paga Extra.
-.3 Proyecto de Innovación.
-.2 Ocio.
-.3 Deporte.
-.3 Apuestas.
-.3 Vacaciones.
-.3 Altruismo.
-.4 Minas.
-.4 Donar TdV.
-.3 Amigos.
-.4 Chat.
-.4 Fotos.
-.2 Alimentación.
-.3 Comida.
-.3 Agua.
-.2 Préstamos.
-.2 Ambulatorio.
-.2 Felicidad.
-.2 Jugador.
-.3 Mis Datos.
-.3 Nivel.
-.3 Clasificación.
-.3 Movimientos.
+	.1 manager/home[Rol=Guidoogway].
+	.2 Dashboard.
+	.3 Distritos.
+	.3 Padawans.
+	.4 Entregas.
+	.4 Movimientos bancarios.
+	.4 Subir de nivel.
+	.4 Datos deportivos.
+	.3 Vacaciones.
+	.2 Ejercicios (Retos).
+	.3 Entregas.
+	.3 Cuestionarios (Dominio de la fuerza).
+	.3 Comida.
+	.3 Agua.
+	.3 Retos deportivos.
+	.3 Retos de felicidad.
+	.3 Pruebas de nivel.
+	.3 Pruebas de audiencia.
+	.2 General.
+	.3 Calificaciones (Badges).
+	.3 Constantes (Constantes de la app).
+	.3 Rangos.
+	.3 Crear Padawans (Por lotes de DNI).
+	.3 Chat.
+	.3 Cartas de privilegio.
+	.3 Apuestas.
+	.3 Minas.
 }
 
 \newpage
+
+
+\section{Funciones de cada sección [Rol=Guidoogway]}
+\subsection{Dashboard}
+Esta vista mostrará un resumen de las demás secciones, esto es; Usuarios, Retos, Información General. Hace la función de acceso directo para las secciones que se nos muestran en el sidebar.
+
+\subsection{Distritos}
+En esta sección podremos crear nuevos distritos además de editarlos, eliminarlos y mostrar información relevante. Además podremos ingresar TDV a todos los miembros del distrito/clan.
+
+\subsection{Padawans}
+En esta sección podremos crear nuevos distritos además de editarlos, eliminarlos y mostrar información relevante.
+
+Como funciones extra podemos destacar:
+\begin{itemize}
+	\item Visualización de todas las entregas que ha realizado el usuario
+	\item Visualización de todos los movimientos bancarios relativos al usuario
+	\item Acción de subir de nivel de forma manual si el docente lo considera oportuno
+	\item Visualización de todos los resultados deportivos del usuario.
+\end{itemize}
+
+Estas secciones anteriormente mencionadas y explicadas a continuación ofrecen información relevante de un usuario al docente cuando se encuentre con el en tutorías.
+
+\subsection{Entregas del usuario}
+En esta sección, dentro del directorio del alumno podremos visualizar todas las entregas de todos los tipos de retos que ha realizado el alumno. Como información relevante se mostrará:
+
+\begin{itemize}
+	\item El estado en el que está su entrega (Comprado, Entregado, Corregido)
+	\item La visualización del fichero entregado (si el estado es Entregado o Corregido)
+	\item Información sobre el reto (Enunciado)
+	\item Información sobre el tipo de reto (Comida, Agua, Proyecto de Felicidad, Proyecto de innovación, Prueba de nivel, Audiencia ante el Senado Galáctico)
+\end{itemize}
+
+\subsection{Movimientos bancarios de un usuario}
+Esta sección es un show de los movimientos bancarios que tiene un usuario (Cobros e Ingresos).
+
+\subsection{Subir de nivel a un usuario}
+Para que un usuario suba de nivel debe cumplir dos requisitos, haber superado el reto deportivo de la semana y tener un badge mínimo especificado por el docente durante esa semana. Cuando esas dos condiciones se cumplen, el usuario sube de nivel e ingresa una cantidad de XP correspondiente al nivel que tenga. Esta tarea se ejecuta automáticamente al término de cada semana pero el profesor se reserva la opción de poder subir de nivel de forma manual si lo considera oportuno.
+
+\subsection{Datos deportivos de un usuario}
+Esta sección muestra un resumen semanal de los resultados deportivos de un usuario en particular. Los datos que se muestran son, por semana, la fase del reto deportivo que se le aplica y si ha superado o no dicha fase.
+
+\subsection{Vacaciones}
+Esta sección ofrece la posibilidad al docente de hacer un parón de la app en periodos no lectivos. Al asignar un periodo de vacaciones indica a la app que el TDV y las barras de energía no disminuirán durante el periodo especificado.
+
+\subsection{Entregas}
+Esta sección nos muestra todas las entregas en estado ``Entregado''. De esta forma el docente puede ir calificando esas entregas en una sola sección.
+
+\subsection{Cuestionarios}
+En esta sección podremos crear nuevos cuestionarios además de editarlos, eliminarlos y mostrar información relevante.\\
+
+Al crear un cuestionario se le cobrará 1 día de vida a cada alumno recuperables si éste responde correctamente al mismo.
+
+\subsection{Comida}
+En esta sección podremos crear nuevos retos de comida además de editarlos, eliminarlos y mostrar información relevante.\\
+
+\subsection{Agua}
+En esta sección podremos crear nuevos retos de agua además de editarlos, eliminarlos y mostrar información relevante.\\
+
+\subsection{Retos deportivos}
+En esta sección podremos crear nuevas fases de retos deportivos además de editarlos, eliminarlos y mostrar información relevante.\\
+
+\subsection{Retos de felicidad}
+En esta sección podremos crear nuevos retos de felicidad además de editarlos, eliminarlos y mostrar información relevante.\\
+
+\subsection{Pruebas de nivel}
+En esta sección podremos crear nuevas pruebas de nivel además de editarlos, eliminarlos y mostrar información relevante.\\
+
+\subsection{Pruebas de audiencia}
+En esta sección podremos crear nuevas pruebas de audiencia además de editarlos, eliminarlos y mostrar información relevante.\\
+
+\subsection{Calificaciones (Badges)}
+En esta sección podremos crear nuevos badges además de editarlos, eliminarlos y mostrar información relevante.\\
+
+\subsection{Constantes}
+En esta sección podremos crear nuevas constantes además de editarlos, eliminarlos y mostrar información relevante.\\
+
+Estas constantes nos sirven para modificar el comportamiento de la app, en esta sección podremos especificar: 
+
+\begin{itemize}
+	\item el tipo de interés que tienen los préstamos
+	\item el número de días que debe transcurrir entre la entrega de un proyecto de felicidad y la entrega de las evidencias.
+	\item la recompensa en segundos que se obtendrá al superar una fase deportiva.
+	\item la recompensa en segundos por almacenar X Tweets diarios.
+	\item el número mínimo de Tweets diarios que debe almacenar cada usuario.
+	\item la velocidad a la que disminuye la barra de energía de comida.
+	\item la velocidad a la que disminuye la barra de energía de agua.
+\end{itemize}
+
+\subsection{Rangos}
+En esta sección el docente puede definir los rangos que van a existir en la app y la puntuación mínima en el ranking para conseguir ese distintivo.
+
+\subsection{Crear Padawans}
+En esta sección el docente puede dar de alta usuarios por lotes mediante una lista de DNIs.
+
+\subsection{Cartas de privilegios}
+En esta sección el docente puede ocultar o mostrar una carta de privilegios previamente implementada. Además de modificar el coste, imagen de la misma.
+
+\subsection{Apuestas}
+En esta sección el docente puede crear apuestas deportivas ante cualquier torneo deportivo entre clanes. Una vez publicado la apuesta los usuarios podrán apostar TDV en las diferentes opciones.\\
+
+El docente puede cerrar la apuesta para que los alumnos no puedan apostar más. El siguiente paso es marcar la opción correcta y monetizar a los alumnos que hayan acertado.
+
+\subsection{Minas}
+En esta sección el docente puede crear una mina, especificar un código secreto que deben encontrar los alumnos mediante pistas que agrega el docente a la mina. Las pistas no son visibles a los alumnos a menos que las compren con cartas de privilegios.
+
+\section{Organización de secciones [Rol=Padawan]}
+\dirtree{%
+	.1 padawan/home[Rol=Padawan].
+	.2 Padawan.
+	.3 Hoja de personaje (Datos).
+	.3 Rango Jedi (Clasificaciones).
+	.3 Nivel - Cartas de privilegio (Cartas de privilegio).
+	.3 Historial de aprendizaje (Movimientos bancarios).
+	.2 Formación.
+	.3 Seguimiento de maestro Jedi (Twitter).
+	.3 Pruebas de nivel (Pruebas de superación).
+	.3 Dominio de la fuerza (Cuestionarios sorpresa).
+	.3 Audiencia ante el Senado Galáctico (Proyectos de innovación).
+	.2 Víveres.
+	.3 Comida (Retos individuales o por clanes).
+	.3 Agua (Retos individuales o por clanes).
+	.2 Comunidad de aprendizaje.
+	.3 RCI: Red de Comunicación Intergaláctica (Amigos).
+	.4 Hologramas (Chat).
+	.4 Historial (Galería de fotos).
+	.3 Viajes Interplanetarios (Deporte - Runtastic).
+	.3 Detección de la fuerza (Apuestas deportivas).
+	.3 Altruismo.
+	.4 Donación (Donación de TDV).
+	.4 Minas (Desactivación de minas).
+	.2 Desconexión.
+	.3 Cápsula del tiempo (Préstamos).
+	.3 Retiro (Vacaciones).
+	.2 Dagobah (Tutorías).
+	.2 Felicidad (Proyectos de felicidad).
+}
+
+\newpage
+
 \section{Funciones de cada sección [Rol=Ciudadano]}
 
 \subsection{Todas las secciones}
