@@ -2,6 +2,10 @@
 \setcounter{section}{0}
 \chapter{Introducción}
 
+El objetivo de este proyecto es favorecer la participación del alumnado tanto en las sesiones presenciales como en casa. Para ello se ha desarrollado una aplicación Web gamificada en Ruby on Rails a modo de plataforma de docencia donde alumnos y profesores interactúan en todo momento.\\
+
+La aplicación va a simular un escenario donde los alumnos tendrán en cada una de las pantalla un reloj regresivo, todos los alumnos comenzarán con el mismo tiempo de vida (TdV en adelante) y no llegar a cero será el objetivo principal de cada uno de ellos. El TdV, por tanto, se convertirá en una moneda sobre la que emergerá toda la economía de la aplicación, si además añadimos que cada ejercicio realizado reportará una cantidad de TdV sobre el contador del que lo realice en función de la resolución de éste tenemos como resultado una competición entre alumnos que provocará que ellos mismos pidan realizar todos los ejercicios/entregas posibles. Las formas de obtener TdV se detallarán más adelante en la sección \textbf{Objetivos de un padawan Sintime}.\\
+
 \section{Motivación\cite{Motivacion1, Motivacion2, Motivacion3, Motivacion4, Motivacion5, Motivacion6, Motivacion7, Motivacion8, Motivacion9}}
 
 Uno de los principales problemas que sufre la Universidad en la actualidad es la falta de motivación y compromiso de los estudiantes a la hora de participar activamente en su aprendizaje. Esta falta de interés y motivación puede estar determinada, en gran medida, por el rol pasivo que desempeñan los estudiantes en las metodologías de enseñanza tradicionales (Martí-Parreño, 2015), especialmente las generaciones más jóvenes, los nativos digitales, esto es, estudiantes que hacen un uso intensivo de la tecnología y de la interactividad digital (Prensky, 2001). Por tanto, la necesidad de mejorar el atractivo de la docencia y adoptar nuevas metodologías de enseñanza-aprendizaje activas, que favorezcan la motivación e implicación del alumnado, se ha convertido en todo un reto para la Universidad que su profesorado deberá afrontar cuanto antes (Contreras y Eguia, 2016; De Jorge et al., 2011; Kiryakova, Angelova, y Yordanova, 2014; Martínez González, 2011). \\
@@ -28,10 +32,32 @@ La gamificación nos ofrece ciertas ventajas frente a las metodologías de ense�
 \item \ac{Badge}
 \end{itemize}
 
+\section{Mecánicas}
+
+Para este proyecto hemos escogido una serie de dinámicas comunes en la mayoría de sistemas gamificados las cuales nos van a servir para obtener una respuesta específica en el conjunto de usuarios.
+
+\begin{itemize}
+	\item \textbf{Cuenta atrás}
+	\item \textbf{Sistema de puntuación}
+	\item \textbf{Distintivos}
+	\item \textbf{Clasificaciones}
+	\item \textbf{}
+\end{itemize}
+
+\subsection{Sistema de Puntuación}
+
+\subsection{Distintivos}
+
+\subsection{Clasificaciones}
+
+\section{La economía en SinTime}
+Anteriormente se ha hablado de forma general sobre la economía en SinTime. Podría decirse que ésta es la pieza central de la plataforma. Para gestionar esta moneda, cada alumno (Padawan en adelante) tendrá una ``cuenta corriente'' en la que se verán reflejadas todas sus operaciones bancarias. Para cada operación tendrán la información de cuándo se ha realizado, el motivo del ingreso/gasto y la cantidad de TdV implicada.\\
+
+
 \section{Los retos en SinTime}
 Los retos en SinTime se podrían reducir a ejercicios/entregas en su definición más simple aunque se le da un significado totalmente diferente. Son retos porque se desafía al alumno a realizarlos, y se le da la oportunidad de ir mejorándolo hasta alcanzar la máxima ``calificación".\\
 
-Como en un juego, al realizar una entrega de un reto el alumno consigue un score/puntuación y, por medio de la reentrega conseguimos que el alumno quiera superarse, reintentarlo hasta conseguir el máximo feddback posible.\\
+Como en un juego, al realizar una entrega de un reto el alumno consigue un score/puntuación y, por medio de la reentrega conseguimos que el alumno quiera superarse, reintentarlo hasta conseguir el máximo feddback posible. Este feedback \\
 
 La relación entre un reto y un alumno tendrá uno de los siguiente estados:
 \begin{itemize}
@@ -40,7 +66,9 @@ La relación entre un reto y un alumno tendrá uno de los siguiente estados:
 	\item \textbf{Calificado}: El docente ha calificado la entrega y asignado un badge.
 \end{itemize}
 
-Para paliar la monotía se han definido para este proyecto diferentes tipos de retos:
+\section{Objetivos de un padawan SinTime}
+
+El objetivo principal de un padawan SinTime será obtener el máximo TdV que pueda para no caer en el lado oscuro y obtener así una buena calificación en su nota final. Son muchas y variadas las formas por las que podrán obtener/perder TdV. Algunas de ellas son:
 
 \begin{itemize}
 	\item Seguimiento de maestro Jedi
@@ -53,7 +81,7 @@ Para paliar la monotía se han definido para este proyecto diferentes tipos de r
 \end{itemize}
 
 \subsection{Seguimiento de maestro Jedi}
-Consiste en guardar un mínimo de Tweets diarios que tengan cierta relevancia en el mundo de la Educación Física.\\
+Para este tipo de reto se ha desarrollado una integración de la plataforma con Twitter. El reto consiste en guardar un mínimo de Tweets diarios que tengan cierta relevancia en el mundo de la Educación Física.\\
 
 Si al final del día el alumno ha guardado un número mínimo de Tweets (especificado por el docente), se le ingresará en su cuenta bancaria un TDV (especificado por el docente).
 
@@ -87,7 +115,9 @@ Este reto tendrá como respuesta un badge con el ingreso de tiempo correspondien
 
 \newpage
 
-\section{Organización de secciones [Rol=Guidoogway]}
+\section{Secciones}
+
+\subsection{Organización de secciones [Rol=Guidoogway]}
 \dirtree{%
 	.1 manager/home[Rol=Guidoogway].
 	.2 Dashboard.
@@ -121,14 +151,14 @@ Este reto tendrá como respuesta un badge con el ingreso de tiempo correspondien
 \newpage
 
 
-\section{Funciones de cada sección [Rol=Guidoogway]}
-\subsection{Dashboard}
+\subsection{Funciones de cada sección [Rol=Guidoogway]}
+\subsubsection{Dashboard}
 Esta vista mostrará un resumen de las demás secciones, esto es; Usuarios, Retos, Información General. Hace la función de acceso directo para las secciones que se nos muestran en el sidebar.
 
-\subsection{Distritos}
+\subsubsection{Distritos}
 En esta sección podremos crear nuevos distritos además de editarlos, eliminarlos y mostrar información relevante. Además podremos ingresar TDV a todos los miembros del distrito/clan.
 
-\subsection{Padawans}
+\textbf{Padawans}
 En esta sección podremos crear nuevos distritos además de editarlos, eliminarlos y mostrar información relevante.
 
 Como funciones extra podemos destacar:
@@ -141,7 +171,7 @@ Como funciones extra podemos destacar:
 
 Estas secciones anteriormente mencionadas y explicadas a continuación ofrecen información relevante de un usuario al docente cuando se encuentre con el en tutorías.
 
-\subsection{Entregas del usuario}
+\textbf{Entregas del usuario}
 En esta sección, dentro del directorio del alumno podremos visualizar todas las entregas de todos los tipos de retos que ha realizado el alumno. Como información relevante se mostrará:
 
 \begin{itemize}
@@ -151,48 +181,48 @@ En esta sección, dentro del directorio del alumno podremos visualizar todas las
 	\item Información sobre el tipo de reto (Comida, Agua, Proyecto de Felicidad, Proyecto de innovación, Prueba de nivel, Audiencia ante el Senado Galáctico)
 \end{itemize}
 
-\subsection{Movimientos bancarios de un usuario}
+\textbf{Movimientos bancarios de un usuario}
 Esta sección es un show de los movimientos bancarios que tiene un usuario (Cobros e Ingresos).
 
-\subsection{Subir de nivel a un usuario}
+\textbf{Subir de nivel a un usuario}
 Para que un usuario suba de nivel debe cumplir dos requisitos, haber superado el reto deportivo de la semana y tener un badge mínimo especificado por el docente durante esa semana. Cuando esas dos condiciones se cumplen, el usuario sube de nivel e ingresa una cantidad de XP correspondiente al nivel que tenga. Esta tarea se ejecuta automáticamente al término de cada semana pero el profesor se reserva la opción de poder subir de nivel de forma manual si lo considera oportuno.
 
-\subsection{Datos deportivos de un usuario}
+\textbf{Datos deportivos de un usuario}
 Esta sección muestra un resumen semanal de los resultados deportivos de un usuario en particular. Los datos que se muestran son, por semana, la fase del reto deportivo que se le aplica y si ha superado o no dicha fase.
 
-\subsection{Vacaciones}
+\subsubsection{Vacaciones}
 Esta sección ofrece la posibilidad al docente de hacer un parón de la app en periodos no lectivos. Al asignar un periodo de vacaciones indica a la app que el TDV y las barras de energía no disminuirán durante el periodo especificado.
 
-\subsection{Entregas}
+\subsubsection{Entregas}
 Esta sección nos muestra todas las entregas en estado ``Entregado''. De esta forma el docente puede ir calificando esas entregas en una sola sección.
 
-\subsection{Cuestionarios}
+\subsubsection{Cuestionarios}
 En esta sección podremos crear nuevos cuestionarios además de editarlos, eliminarlos y mostrar información relevante.\\
 
 Al crear un cuestionario se le cobrará 1 día de vida a cada alumno recuperables si éste responde correctamente al mismo.
 
-\subsection{Comida}
+\subsubsection{Comida}
 En esta sección podremos crear nuevos retos de comida además de editarlos, eliminarlos y mostrar información relevante.\\
 
-\subsection{Agua}
+\subsubsection{Agua}
 En esta sección podremos crear nuevos retos de agua además de editarlos, eliminarlos y mostrar información relevante.\\
 
-\subsection{Retos deportivos}
+\subsubsection{Retos deportivos}
 En esta sección podremos crear nuevas fases de retos deportivos además de editarlos, eliminarlos y mostrar información relevante.\\
 
-\subsection{Retos de felicidad}
+\subsubsection{Retos de felicidad}
 En esta sección podremos crear nuevos retos de felicidad además de editarlos, eliminarlos y mostrar información relevante.\\
 
-\subsection{Pruebas de nivel}
+\subsubsection{Pruebas de nivel}
 En esta sección podremos crear nuevas pruebas de nivel además de editarlos, eliminarlos y mostrar información relevante.\\
 
-\subsection{Pruebas de audiencia}
+\subsubsection{Pruebas de audiencia}
 En esta sección podremos crear nuevas pruebas de audiencia además de editarlos, eliminarlos y mostrar información relevante.\\
 
-\subsection{Calificaciones (Badges)}
+\subsubsection{Calificaciones (Badges)}
 En esta sección podremos crear nuevos badges además de editarlos, eliminarlos y mostrar información relevante.\\
 
-\subsection{Constantes}
+\subsubsection{Constantes}
 En esta sección podremos crear nuevas constantes además de editarlos, eliminarlos y mostrar información relevante.\\
 
 Estas constantes nos sirven para modificar el comportamiento de la app, en esta sección podremos especificar: 
@@ -207,24 +237,26 @@ Estas constantes nos sirven para modificar el comportamiento de la app, en esta 
 	\item la velocidad a la que disminuye la barra de energía de agua.
 \end{itemize}
 
-\subsection{Rangos}
+\subsubsection{Rangos}
 En esta sección el docente puede definir los rangos que van a existir en la app y la puntuación mínima en el ranking para conseguir ese distintivo.
 
-\subsection{Crear Padawans}
+\subsubsection{Crear Padawans}
 En esta sección el docente puede dar de alta usuarios por lotes mediante una lista de DNIs.
 
-\subsection{Cartas de privilegios}
+\subsubsection{Cartas de privilegios}
 En esta sección el docente puede ocultar o mostrar una carta de privilegios previamente implementada. Además de modificar el coste, imagen de la misma.
 
-\subsection{Apuestas}
+\subsubsection{Apuestas}
 En esta sección el docente puede crear apuestas deportivas ante cualquier torneo deportivo entre clanes. Una vez publicado la apuesta los usuarios podrán apostar TDV en las diferentes opciones.\\
 
 El docente puede cerrar la apuesta para que los alumnos no puedan apostar más. El siguiente paso es marcar la opción correcta y monetizar a los alumnos que hayan acertado.
 
-\subsection{Minas}
+\subsubsection{Minas}
 En esta sección el docente puede crear una mina, especificar un código secreto que deben encontrar los alumnos mediante pistas que agrega el docente a la mina. Las pistas no son visibles a los alumnos a menos que las compren con cartas de privilegios.
 
-\section{Organización de secciones [Rol=Padawan]}
+\newpage
+
+\subsection{Organización de secciones [Rol=Padawan]}
 \dirtree{%
 	.1 padawan/home[Rol=Padawan].
 	.2 Padawan.
@@ -258,21 +290,20 @@ En esta sección el docente puede crear una mina, especificar un código secreto
 
 \newpage
 
-\section{Funciones de cada sección [Rol=Ciudadano]}
+\subsection{Funciones de cada sección [Rol=Ciudadano]}
 
-\subsection{Todas las secciones}
+\subsubsection{Todas las secciones}
 
-\subsubsection{Mostrar el TdV}
+\textbf{Mostrar el TdV}
 \begin{figure}[ht]
-  \centering
-    \includegraphics[width=0.5\textwidth]{imagenes/Objetivo1.png}
-    \caption{Objetivo 1 - Cuenta regresiva}
-    \label{objetivoIm1}
+	\centering
+	\includegraphics[width=0.5\textwidth]{imagenes/Objetivo1_new.png}
+	\caption{Objetivo 1 - Cuenta regresiva}
+	\label{objetivoIm1}
 \end{figure}
 
-Es un reloj regresivo que muestra al usuario el TdV que le queda. Como pieza clave del proyecto debe mostrarse en cada una de las secciones que el usuario visualice ya que el ciudadano tomará sus decisiones en función de éste.\\
+Es un reloj regresivo que muestra al usuario el TdV que le queda en tiempo real. Como pieza clave del proyecto debe mostrarse en cada una de las secciones que el usuario visualice ya que el padawan tomará sus decisiones en función de éste.\\
 
-Las únicas secciones donde el TdV no se muestra es en la sección de \textbf{Chat} y \textbf{Jugador}, por comodidad para el usuario.
 %\begin{table}[ht]
 %\centering
 %\resizebox{\textwidth}{!}{%
@@ -288,97 +319,49 @@ Las únicas secciones donde el TdV no se muestra es en la sección de \textbf{Ch
 %\label{objetivo1}
 %\end{table}
 
-\subsubsection{Mostrar advertencias del sistema}
+\textbf{Feedback para cada interacción}
 \begin{figure}[ht]
-  \centering
-    \includegraphics[width=0.4\textwidth]{imagenes/Objetivo2.png}
-    \includegraphics[width=0.4\textwidth]{imagenes/Objetivo2b.png}
-    \caption{Objetivo 2 - Mostrar mensajes}
-    \label{objetivoIm2}
+	\centering
+	\includegraphics[width=0.4\textwidth]{imagenes/Objetivo2_new.png}
+	\includegraphics[width=0.4\textwidth]{imagenes/Objetivo2b_new.png}
+	\caption{Objetivo 2 - Ejemplos de avisos}
+	\label{objetivoIm2}
 \end{figure}
 
-En la figura superior vemos dos claros ejemplos donde el metronomista (sistema) debe mostrar un aviso a un ciudadano específico (mensaje directo) o bien a todos los ciudadanos (mensaje difundido).\\
+Es importante que el alumno pueda visualizar estos avisos allá donde vaya para que sepa qué está ocurriendo en todo momento.
 
-Es importante que el ciudadano pueda visualizar estos avisos allá donde vaya para que pueda tomar decisiones inmediatas en el caso de los mensajes directos y que además no suponga una desventaja frente al resto de ciudadanos en el caso de los mensajes difundidos.
+\textbf{Mostrar alertas}
 
-\subsubsection{Mostrar alertas}
-
-El sistema de alertas permite avisar a un ciudadano de que se han producido nuevos eventos. Los eventos comunicados mediante este sistema alertas son los siguientes:\\
+El sistema de alertas permite avisar a un alumno de que se han producido nuevos eventos. Los eventos comunicados mediante este sistema de alertas son los siguientes:\\
 
 \begin{table}[h!]
-     \begin{center}
-     \begin{tabular}{ c  c  c  c }
-      \bottomrule
-            \\
-      \raisebox{-0.2ex}{\begin{tabular}[c]{@{}l@{}}\includegraphics[width=0.25\textwidth, height=30mm]{imagenes/Aviso-Inspeccion.png}\\Avisa de cinco\\nuevas publica-\\ciones de test\\ de inspección.\end{tabular}}
-     
-      & 
-      \raisebox{-0.2ex}{\begin{tabular}[c]{@{}l@{}}\includegraphics[width=0.25\textwidth, height=30mm]{imagenes/Aviso-Paga.png}\\Avisa de la pu-\\blicación de un\\nuevo reto de\\paga extra.\end{tabular}}
-      & 
-      \raisebox{-0.2ex}{\begin{tabular}[c]{@{}l@{}}\includegraphics[width=0.25\textwidth, height=30mm]{imagenes/Aviso-Mina.png}\\Avisa de que una\\nueva mina está\\disponible para ser\\ desactivada.\end{tabular}}
-	  &
-      \raisebox{-0.2ex}{\begin{tabular}[c]{@{}l@{}}\includegraphics[width=0.25\textwidth, height=30mm]{imagenes/Aviso-Chat.png}\\Avisa del número de\\mensajes de chat pen-\\dientes de ser leídos\\por el ciudadano.\\\end{tabular}}
-      \\
-      \bottomrule
-      \end{tabular}
-      \caption{Sistema de alertas}
-      \label{tbl:Sistema de alertas}
-      \end{center}
+	\begin{center}
+		\begin{tabular}{ c  c  c  c }
+			\bottomrule
+			\\
+			\raisebox{-0.2ex}{\begin{tabular}[c]{@{}l@{}}\includegraphics[width=0.25\textwidth, height=40mm]{imagenes/avisos/dominio_de_la_fuerza.png}\\Avisa de dos\\nuevas publica-\\ciones de dominio\\ de la fuerza.\end{tabular}}
+			
+			& 
+			\raisebox{-0.2ex}{\begin{tabular}[c]{@{}l@{}}\includegraphics[width=0.25\textwidth, height=40mm]{imagenes/avisos/prueba_nivel.png}\\Avisa de la pu-\\blicación de un\\nuevo reto de\\prueba de nivel.\end{tabular}}
+			& 
+			\raisebox{-0.2ex}{\begin{tabular}[c]{@{}l@{}}\includegraphics[width=0.25\textwidth, height=40mm]{imagenes/avisos/mina.png}\\Avisa de que una\\nueva mina está\\disponible para ser\\ desactivada.\end{tabular}}
+			&
+			\raisebox{-0.2ex}{\begin{tabular}[c]{@{}l@{}}\includegraphics[width=0.25\textwidth, height=40mm]{imagenes/avisos/chat.png}\\Avisa del número de\\mensajes de chat pen-\\dientes de ser leídos.\\ \\\end{tabular}}
+			\\
+			\bottomrule
+		\end{tabular}
+		\caption{Sistema de alertas}
+		\label{tbl:Sistema de alertas}
+	\end{center}
 \end{table}
 
 \newpage
 
-\subsection{Home}
-
-La página principal debe mostrar las diferentes secciones principales de forma circular haciendo analogía a las posiciones de los números de un reloj de manera que se muestren de forma ordenada al uso que le darán los ciudadanos.\\
-
-\begin{wrapfigure}{l}{0.25\textwidth}
-    \centering
-    \includegraphics[width=0.25\textwidth]{imagenes/Objetivo4.png}
-    \caption{Objetivo 3 - Menú circular}
-    \label{objetivoIm3}
-\end{wrapfigure}
-\noindent
-\textbf{1. Jugador: } En esta sección los ciudadanos pueden ver todos sus movimientos bancarios, su posición en el ranking, niveles y personalizar su imagen a los demás.\\
-
-\noindent
-\textbf{2. Trabajo: } Todos los días deben entrar para completar su jornada laboral\\
-
-\noindent
-\textbf{3. Ocio: } Es donde se publican las minas, acceden a las vacaciones y tienen sus redes sociales. Suele ser la segunda sección más usada.\\
-
-\noindent
-\textbf{4. Alimentación: } Esta sección es una de las principales puesto que deben estar atentos a sus barras de energía.\\
-
-\noindent
-\textbf{5. Préstamos: } Suele usarse más que la sección de \textbf{Asistencia} ya que conforme el curso avanza las condiciones se hacen más duras y necesitan acudir al metronomista en busca de un préstamo.\\
-
-\noindent
-\textbf{6. Asistencia: } Sección en la que un ciudadano puede solicitar una tutoría con el GdT.\\
-
-\noindent
-\textbf{7. Felicidad: } En ella subirán propuestas y pruebas 3 veces en todo el curso.
-
-\newpage
-
-\subsection{Home / Trabajo / Jornada Laboral}
-
-Esta sección consiste en 
-
-\newpage
-\section{Objetivos de un ciudadano \$inTime}
-
-El objetivo principal de un ciudadano de \$inTime será obtener el máximo TdV que pueda para no morir y obtener así una buena calificación en su nota final. Son muchas y variadas las formas por las que podrán obtener más tiempo, o a perderlo. Algunas de ellas son:
-
-\begin{itemize}
-\item Jornada Laboral (sustento base diario): su trabajo diario (integración con Twitter).
-\item Compra de alimentación y agua: los ciudadanos pueden comprar productos alimenticios o bebida (retos) para no morir de hambre o deshidratación. Con la corrección de cada reto, el GdT otorgará una bonificación de tiempo correspondiente a su calificación.
-\item Inspección de trabajo: preguntas de tipo test sorpresa que quitan 1 hora de TdV recuperables si se contesta bien a las cuestiones.
-\item Paga extra: retos adicionales que pueden realizar los 6 primeros ciudadanos que lo soliciten para obtener un ingreso extra.
-\item Desactivación de minas: El GdT esconderá un código QR y la misión del ciudadano es desactivarla (leer el código QR e insertarlo en el campo de desactivación) antes de que explote, quien consiga desactivarla recibe una bonificación.
-\item Apuestas: Se realizan competiciones entre distritos (retos físicos) y la App permite al ciudadano apostar cualquier cosa que permita el GdT.
-\item Donaciones: Un ciudadano podrá realizar donaciones al resto de ciudadanos que lo puedan necesitar.
-\item Préstamos: Un ciudadano podrá solicitar TdV (sujeto a intereses variables) al metronomista en un momento de necesidad.
-
-\end{itemize} 
+%\textbf\left( {Home}
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.2\textwidth]{imagenes/secciones/padawan/home.png}
+	\caption{Objetivo 2 - Ejemplos de avisos}
+	\label{objetivoIm2}
+\end{figure}
 

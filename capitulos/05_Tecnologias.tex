@@ -1,0 +1,80 @@
+\setcounter{chapter}{5}
+\setcounter{section}{0}
+\setcounter{subsection}{0}
+\chapter{Tecnologías usadas}
+
+En este proyecto se ha hecho uso de herramientas externas que nos han ayudado en diferentes aspectos durante el desarrollo del proyecto. A continuación vamos a nombrar algunas de ellas.
+
+\newpage
+\section{Google Analytics}
+Esta famosa herramienta nos va a ofrecer un feedback a tiempo real del tráfico y flujo de usuarios que interactúan con nuestra plataforma así como análisis y comparativas de esos flujos con respecto a diferentes períodos de tiempo.
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.6\textwidth]{imagenes/tecnologias/analytics.png}
+	\caption{Google Analytics}
+	\label{analytics}
+\end{figure}
+
+\newpage
+\section{Rollbar}
+Rollbar es un sistema de detección y diagnóstico de errores en tiempo real. En este proyecto está integrado mediante una \textbf{gema}, siguiendo una pequeña guía podremos conectar nuestra aplicación con su servicio. \cite{Rollbar1}.\\
+Debemos tener presente en todo momento que el ecosistema tecnológico está en continuo cambio por lo que cualquiera de estos podría afectar al correcto funcionamiento de nuestra plataforma, así que, una vez publiquemos nuestra aplicación deberíamos estar alerta de todos los errores que se suceden. Por ello, esta herramienta nos va a dar un feedback en tiempo real de los errores que sucedan así como entender cómo ocurren, por qué y dónde.\\
+
+A continuación vamos a poner un ejemplo de un error en tiempo real y la potencia de esta herramienta.
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.6\textwidth]{imagenes/tecnologias/rollbar_error_mail.png}
+	\caption{Rollbar - Notificación email}
+	\label{rollbar_error_mail}
+\end{figure}
+
+\newpage
+
+Si seguimos en enlace que nos marca la url podremos ver todos los detalles del error como la traza, las ocurrencias, navegadores y OS afectados y más detalles.\\
+
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.4\textwidth]{imagenes/tecnologias/rollbar_error_traceback.png}
+	\caption{Rollbar - Rollbar detalle Traceback}
+	\label{rollbar_error_traceback}
+\end{figure}
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.4\textwidth]{imagenes/tecnologias/rollbar_error_ocurrences.png}
+	\caption{Rollbar - Rollbar detalle Ocurrences}
+	\label{rollbar_error_ocurrences}
+\end{figure}
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.4\textwidth]{imagenes/tecnologias/rollbar_error_browser_os.png}
+	\caption{Rollbar - Rollbar detalle Browsers/OS}
+	\label{rollbar_error_browser_os}
+\end{figure}
+
+\newpage
+
+\section{Port Monitor \cite{PortMonitor}}
+Servicio web creado por un \textbf{antiguo estudiante de la UGR}, Francisco Yañez. Port Monitor es una herramienta fácil y en línea que supervisa el monitoreo del sitio web y del servidor para los usuarios las 24 horas del día, los 7 días de la semana. Registra el tiempo de actividad, los tiempos de respuesta del sitio web / servidor (rendimiento) y las causas del tiempo de inactividad. Genera informes personalizados y envía alertas instantáneas por correo electrónico o informes semanales / mensuales.
+
+\section{Runtastic}
+Ya que uno de los principales objetivos de la plataforma es mejorar el ritmo cardiorrespiratorio de los usuarios del sistema, debemos tener un servicio que monitorice los retos enfocados a los ejercicios físicos. En este proyecto actualizamos continuamente las sesiones que realizan cada uno de los padawans para evaluar semanalmente los resultados obtenidos.\\
+
+Para ello necesitamos que el usuario nos facilite su usuario y contraseña de Runtastic, los almacenamos en la base de datos
+
+\newpage
+
+\section{Twitter}
+En esta aplicación hacemos uso de la API de Twitter ya que uno de los retos diarios consiste en almacenar 5 tweets diarios relevantes en el mundo de la Educación Física. Para ello tenemos que servir los tweets de usuarios de Twitter a los que los padawans sigan.\\
+
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=1\textwidth]{imagenes/tecnologias/twitter.png}
+	\caption{Twitter - Ejemplo}
+	\label{twitter}
+\end{figure}

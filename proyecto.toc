@@ -2,54 +2,70 @@
 \contentsline {chapter}{Introducci\IeC {\'o}n}{\es@scroman {vii}}{chapter*.8}
 \contentsline {section}{\numberline {1.1}Motivaci\IeC {\'o}n\cite {Motivacion1, Motivacion2, Motivacion3, Motivacion4, Motivacion5, Motivacion6, Motivacion7, Motivacion8, Motivacion9}}{\es@scroman {vii}}{section.1.1}
 \contentsline {section}{\numberline {1.2}Diccionario de acr\IeC {\'o}nimos}{\es@scroman {viii}}{section.1.2}
-\contentsline {section}{\numberline {1.3}Los retos en SinTime}{\es@scroman {viii}}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Seguimiento de maestro Jedi}{\es@scroman {ix}}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Pruebas de nivel}{\es@scroman {ix}}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Dominio de la fuerza}{\es@scroman {ix}}{subsection.1.3.3}
-\contentsline {subsection}{\numberline {1.3.4}V\IeC {\'\i }veres}{\es@scroman {ix}}{subsection.1.3.4}
-\contentsline {subsection}{\numberline {1.3.5}Audiencia ante el Senado Gal\IeC {\'a}ctico}{\es@scroman {x}}{subsection.1.3.5}
-\contentsline {subsection}{\numberline {1.3.6}Viajes Interplanetarios}{\es@scroman {x}}{subsection.1.3.6}
-\contentsline {subsection}{\numberline {1.3.7}Retos de Felicidad}{\es@scroman {x}}{subsection.1.3.7}
-\contentsline {section}{\numberline {1.4}Organizaci\IeC {\'o}n de secciones [Rol=Guidoogway]}{\es@scroman {xi}}{section.1.4}
-\contentsline {section}{\numberline {1.5}Funciones de cada secci\IeC {\'o}n [Rol=Guidoogway]}{\es@scroman {xii}}{section.1.5}
-\contentsline {subsection}{\numberline {1.5.1}Dashboard}{\es@scroman {xii}}{subsection.1.5.1}
-\contentsline {subsection}{\numberline {1.5.2}Distritos}{\es@scroman {xii}}{subsection.1.5.2}
-\contentsline {subsection}{\numberline {1.5.3}Padawans}{\es@scroman {xii}}{subsection.1.5.3}
-\contentsline {subsection}{\numberline {1.5.4}Entregas del usuario}{\es@scroman {xii}}{subsection.1.5.4}
-\contentsline {subsection}{\numberline {1.5.5}Movimientos bancarios de un usuario}{\es@scroman {xiii}}{subsection.1.5.5}
-\contentsline {subsection}{\numberline {1.5.6}Subir de nivel a un usuario}{\es@scroman {xiii}}{subsection.1.5.6}
-\contentsline {subsection}{\numberline {1.5.7}Datos deportivos de un usuario}{\es@scroman {xiii}}{subsection.1.5.7}
-\contentsline {subsection}{\numberline {1.5.8}Vacaciones}{\es@scroman {xiii}}{subsection.1.5.8}
-\contentsline {subsection}{\numberline {1.5.9}Entregas}{\es@scroman {xiii}}{subsection.1.5.9}
-\contentsline {subsection}{\numberline {1.5.10}Cuestionarios}{\es@scroman {xiii}}{subsection.1.5.10}
-\contentsline {subsection}{\numberline {1.5.11}Comida}{\es@scroman {xiii}}{subsection.1.5.11}
-\contentsline {subsection}{\numberline {1.5.12}Agua}{\es@scroman {xiv}}{subsection.1.5.12}
-\contentsline {subsection}{\numberline {1.5.13}Retos deportivos}{\es@scroman {xiv}}{subsection.1.5.13}
-\contentsline {subsection}{\numberline {1.5.14}Retos de felicidad}{\es@scroman {xiv}}{subsection.1.5.14}
-\contentsline {subsection}{\numberline {1.5.15}Pruebas de nivel}{\es@scroman {xiv}}{subsection.1.5.15}
-\contentsline {subsection}{\numberline {1.5.16}Pruebas de audiencia}{\es@scroman {xiv}}{subsection.1.5.16}
-\contentsline {subsection}{\numberline {1.5.17}Calificaciones (Badges)}{\es@scroman {xiv}}{subsection.1.5.17}
-\contentsline {subsection}{\numberline {1.5.18}Constantes}{\es@scroman {xiv}}{subsection.1.5.18}
-\contentsline {subsection}{\numberline {1.5.19}Rangos}{\es@scroman {xv}}{subsection.1.5.19}
-\contentsline {subsection}{\numberline {1.5.20}Crear Padawans}{\es@scroman {xv}}{subsection.1.5.20}
-\contentsline {subsection}{\numberline {1.5.21}Cartas de privilegios}{\es@scroman {xv}}{subsection.1.5.21}
-\contentsline {subsection}{\numberline {1.5.22}Apuestas}{\es@scroman {xv}}{subsection.1.5.22}
-\contentsline {subsection}{\numberline {1.5.23}Minas}{\es@scroman {xv}}{subsection.1.5.23}
-\contentsline {section}{\numberline {1.6}Organizaci\IeC {\'o}n de secciones [Rol=Padawan]}{\es@scroman {xvi}}{section.1.6}
-\contentsline {section}{\numberline {1.7}Funciones de cada secci\IeC {\'o}n [Rol=Ciudadano]}{\es@scroman {xvii}}{section.1.7}
-\contentsline {subsection}{\numberline {1.7.1}Todas las secciones}{\es@scroman {xvii}}{subsection.1.7.1}
-\contentsline {subsubsection}{Mostrar el TdV}{\es@scroman {xvii}}{section*.9}
-\contentsline {subsubsection}{Mostrar advertencias del sistema}{\es@scroman {xvii}}{section*.10}
-\contentsline {subsubsection}{Mostrar alertas}{\es@scroman {xvii}}{section*.11}
-\contentsline {subsection}{\numberline {1.7.2}Home}{\es@scroman {xix}}{subsection.1.7.2}
-\contentsline {subsection}{\numberline {1.7.3}Home / Trabajo / Jornada Laboral}{\es@scroman {xx}}{subsection.1.7.3}
-\contentsline {section}{\numberline {1.8}Objetivos de un ciudadano \$inTime}{\es@scroman {xxi}}{section.1.8}
-\contentsline {chapter}{Especificaci\IeC {\'o}n de requisitos}{\es@scroman {xxiii}}{chapter*.12}
-\contentsline {section}{\numberline {2.1}Introducci\IeC {\'o}n}{\es@scroman {xxiii}}{section.2.1}
-\contentsline {section}{\numberline {2.2}Requisitos no funcionales}{\es@scroman {xxiii}}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}RNF 1}{\es@scroman {xxiii}}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}RNF 2}{\es@scroman {xxiii}}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}RNF 3}{\es@scroman {xxiii}}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}RNF 4}{\es@scroman {xxiii}}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {2.2.5}RNF 5}{\es@scroman {xxiii}}{subsection.2.2.5}
-\contentsline {section}{\numberline {2.3}Requisitos funcionales}{\es@scroman {xxiii}}{section.2.3}
+\contentsline {section}{\numberline {1.3}Mec\IeC {\'a}nicas}{\es@scroman {viii}}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Sistema de Puntuaci\IeC {\'o}n}{\es@scroman {ix}}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Distintivos}{\es@scroman {ix}}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Clasificaciones}{\es@scroman {ix}}{subsection.1.3.3}
+\contentsline {section}{\numberline {1.4}La econom\IeC {\'\i }a en SinTime}{\es@scroman {ix}}{section.1.4}
+\contentsline {section}{\numberline {1.5}Los retos en SinTime}{\es@scroman {ix}}{section.1.5}
+\contentsline {section}{\numberline {1.6}Objetivos de un padawan SinTime}{\es@scroman {ix}}{section.1.6}
+\contentsline {subsection}{\numberline {1.6.1}Seguimiento de maestro Jedi}{\es@scroman {x}}{subsection.1.6.1}
+\contentsline {subsection}{\numberline {1.6.2}Pruebas de nivel}{\es@scroman {x}}{subsection.1.6.2}
+\contentsline {subsection}{\numberline {1.6.3}Dominio de la fuerza}{\es@scroman {x}}{subsection.1.6.3}
+\contentsline {subsection}{\numberline {1.6.4}V\IeC {\'\i }veres}{\es@scroman {x}}{subsection.1.6.4}
+\contentsline {subsection}{\numberline {1.6.5}Audiencia ante el Senado Gal\IeC {\'a}ctico}{\es@scroman {xi}}{subsection.1.6.5}
+\contentsline {subsection}{\numberline {1.6.6}Viajes Interplanetarios}{\es@scroman {xi}}{subsection.1.6.6}
+\contentsline {subsection}{\numberline {1.6.7}Retos de Felicidad}{\es@scroman {xi}}{subsection.1.6.7}
+\contentsline {section}{\numberline {1.7}Secciones}{\es@scroman {xii}}{section.1.7}
+\contentsline {subsection}{\numberline {1.7.1}Organizaci\IeC {\'o}n de secciones [Rol=Guidoogway]}{\es@scroman {xii}}{subsection.1.7.1}
+\contentsline {subsection}{\numberline {1.7.2}Funciones de cada secci\IeC {\'o}n [Rol=Guidoogway]}{\es@scroman {xiii}}{subsection.1.7.2}
+\contentsline {subsubsection}{Dashboard}{\es@scroman {xiii}}{section*.9}
+\contentsline {subsubsection}{Distritos}{\es@scroman {xiii}}{section*.10}
+\contentsline {subsubsection}{Vacaciones}{\es@scroman {xiv}}{section*.11}
+\contentsline {subsubsection}{Entregas}{\es@scroman {xiv}}{section*.12}
+\contentsline {subsubsection}{Cuestionarios}{\es@scroman {xiv}}{section*.13}
+\contentsline {subsubsection}{Comida}{\es@scroman {xiv}}{section*.14}
+\contentsline {subsubsection}{Agua}{\es@scroman {xiv}}{section*.15}
+\contentsline {subsubsection}{Retos deportivos}{\es@scroman {xv}}{section*.16}
+\contentsline {subsubsection}{Retos de felicidad}{\es@scroman {xv}}{section*.17}
+\contentsline {subsubsection}{Pruebas de nivel}{\es@scroman {xv}}{section*.18}
+\contentsline {subsubsection}{Pruebas de audiencia}{\es@scroman {xv}}{section*.19}
+\contentsline {subsubsection}{Calificaciones (Badges)}{\es@scroman {xv}}{section*.20}
+\contentsline {subsubsection}{Constantes}{\es@scroman {xv}}{section*.21}
+\contentsline {subsubsection}{Rangos}{\es@scroman {xvi}}{section*.22}
+\contentsline {subsubsection}{Crear Padawans}{\es@scroman {xvi}}{section*.23}
+\contentsline {subsubsection}{Cartas de privilegios}{\es@scroman {xvi}}{section*.24}
+\contentsline {subsubsection}{Apuestas}{\es@scroman {xvi}}{section*.25}
+\contentsline {subsubsection}{Minas}{\es@scroman {xvi}}{section*.26}
+\contentsline {subsection}{\numberline {1.7.3}Organizaci\IeC {\'o}n de secciones [Rol=Padawan]}{\es@scroman {xvii}}{subsection.1.7.3}
+\contentsline {subsection}{\numberline {1.7.4}Funciones de cada secci\IeC {\'o}n [Rol=Ciudadano]}{\es@scroman {xviii}}{subsection.1.7.4}
+\contentsline {subsubsection}{Todas las secciones}{\es@scroman {xviii}}{section*.27}
+\contentsline {chapter}{Planificaci\IeC {\'o}n}{\es@scroman {xxi}}{chapter*.28}
+\contentsline {section}{\numberline {4.1}Trello}{\es@scroman {xxi}}{section.4.1}
+\contentsline {section}{\numberline {4.2}Sprints}{\es@scroman {xxii}}{section.4.2}
+\contentsline {chapter}{Tecnolog\IeC {\'\i }as usadas}{\es@scroman {xxiii}}{chapter*.29}
+\contentsline {section}{\numberline {5.1}Google Analytics}{\es@scroman {xxiv}}{section.5.1}
+\contentsline {section}{\numberline {5.2}Rollbar}{\es@scroman {xxv}}{section.5.2}
+\contentsline {section}{\numberline {5.3}Port Monitor \cite {PortMonitor}}{\es@scroman {xxvii}}{section.5.3}
+\contentsline {section}{\numberline {5.4}Runtastic}{\es@scroman {xxvii}}{section.5.4}
+\contentsline {section}{\numberline {5.5}Twitter}{\es@scroman {xxviii}}{section.5.5}
+\contentsline {chapter}{Dise\IeC {\~n}o}{\es@scroman {xxix}}{chapter*.30}
+\contentsline {section}{\numberline {6.1}Diagrama de clases}{\es@scroman {xxix}}{section.6.1}
+\contentsline {chapter}{An\IeC {\'a}lisis}{\es@scroman {xxxi}}{chapter*.31}
+\contentsline {section}{\numberline {7.1}Historias de usuario}{\es@scroman {xxxi}}{section.7.1}
+\contentsline {section}{\numberline {7.2}Tarjetas de Servidor de Producci\IeC {\'o}n}{\es@scroman {xxxii}}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Instalaci\IeC {\'o}n de Ruby on Rails}{\es@scroman {xxxii}}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Configuraci\IeC {\'o}n de la Base de Datos}{\es@scroman {xxxii}}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Configuraci\IeC {\'o}n de gitignore}{\es@scroman {xxxiii}}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.4}Sistema de alertas Rollbar}{\es@scroman {xxxiii}}{subsection.7.2.4}
+\contentsline {subsection}{\numberline {7.2.5}Desplegar cambios locales a producci\IeC {\'o}n}{\es@scroman {xxxiv}}{subsection.7.2.5}
+\contentsline {subsection}{\numberline {7.2.6}Sistema de alertas Port Monitor}{\es@scroman {xxxv}}{subsection.7.2.6}
+\contentsline {section}{\numberline {7.3}Sistema}{\es@scroman {xxxvi}}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Configuraci\IeC {\'o}n de namespaces}{\es@scroman {xxxvi}}{subsection.7.3.1}
+\contentsline {chapter}{Prensa}{\es@scroman {xxxvii}}{chapter*.32}
+\contentsline {section}{\numberline {10.1}Prensa digital}{\es@scroman {xxxvii}}{section.10.1}
+\contentsline {section}{\numberline {10.2}Radio}{\es@scroman {xxxviii}}{section.10.2}
+\contentsline {section}{\numberline {10.3}Prensa escrita}{\es@scroman {xxxix}}{section.10.3}
+\contentsline {subsection}{\numberline {10.3.1}27/06/2017 - Granada Hoy}{\es@scroman {xxxix}}{subsection.10.3.1}
+\contentsline {subsection}{\numberline {10.3.2}28/06/2017 - Ideal}{\es@scroman {xl}}{subsection.10.3.2}
+\contentsline {subsection}{\numberline {10.3.3}27/07/2017 - Ideal}{\es@scroman {xli}}{subsection.10.3.3}

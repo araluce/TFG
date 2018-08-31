@@ -1,0 +1,242 @@
+\setcounter{chapter}{7}
+\setcounter{section}{0}
+\setcounter{subsection}{0}
+\chapter{Análisis}
+\section{Historias de usuario}
+
+\begin{longtable} {r l c c c}
+	\hline
+	\#	&	\textbf{Descripción}					&	\textbf{Dep.}	&	\textbf{Est.}	&	\textbf{Prio.}	\\
+	\hline \hline
+	\endhead
+	\multicolumn{5}{l}{\textbf{Servidor de producción}} \\
+	\hline 
+	1.1.	&	Instalación de Rails				&	-				&	5				&	1	\\
+	\hline
+	1.2.	&	Configuración de la Base de Datos	&	1.1				&	1				&	1	\\
+	\hline
+	1.3.	&	Git ignore							&	1.1	1.2			&	1				&	1	\\
+	\hline	
+	1.4.	&	Sistema de alertas (\textbf{Rollbar})&	1.1				&	4				&	2	\\
+	\hline	
+	1.5.	&	Desplegar cambios locales a producción&	1.1	1.2 1.4		&	5				&	1	\\
+	\hline	
+	1.6.	&	Sistema de alertas (\textbf{Port Monitor})&	1.1			&	1				&	3	\\
+	\hline
+	\multicolumn{5}{l}{\textbf{Sistema}} \\
+	\hline 
+	2.1.	&	Configuración de namespaces				&	-				&	1				&	1	\\
+	\hline
+	2.2.	&	Gestión de sesiones	con \textbf{Devise}	&	-			&	4				&	3	\\
+	\hline
+	2.3.	&	Configuración de mailing			&	-				&	8				&	3	\\
+	\hline
+	\multicolumn{5}{l}{\textbf{Alumnos}} \\
+	\hline 
+	3.1.	&	Reloj regresivo						&	-				&	2				&	1	\\
+	\hline
+	\multicolumn{5}{l}{\textbf{Administración}} \\
+	\hline 
+	4.1.	&	Creación de usuarios(Lista DNIs)	&	-				&	4				&	1	\\
+	\hline
+	4.2.	&	Creación de usuarios				&	4.1.			&	4				&	3	\\
+	\hline
+	4.3.	&	Gestión de clanes					&	4.1.			&	2				&	2	\\
+	\hline
+	\\
+	\caption{Historias de usuario}
+	\label{tab:analisis/hus}
+\end{longtable}
+
+\newpage
+
+\section{Tarjetas de Servidor de Producción}
+
+\subsection{Instalación de Ruby on Rails}
+
+\begin{table}[h]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			1.1. & \multicolumn{2}{c}{Instalación de Ruby on Rails} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Descripción} \\ \hline
+			\multicolumn{3}{p{12cm}}{
+				Se debe instalar en el servidor el Framework Ruby on Rails. Proveeremos también de datos todos los ficheros de configuración del framework. 
+				\begin{itemize}
+					\item \textbf{secrets.yml}: que contendrá todas las contraseñas, o referencias a ellas, que necesite el sistema.
+					\item \textbf{database.yml}: que contendrá toda la información necesaria para acceder a la base de datos que hemos configurado en el servidor de producción.
+				\end{itemize}
+			} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Estimación} & 5 \\ \hline
+			\multicolumn{2}{l|}{Prioridad} & 1 \\ \hline
+			\multicolumn{2}{l|}{Dependencias} & - \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Pruebas de aceptación} \\ \hline
+			\multicolumn{3}{p{12cm}}{ - } \\
+			\hline
+		\end{tabular}
+	\end{center}
+	\caption{Historia de usuario - Instalación de Ruby on Rails}
+	\label{tab:analisis/instalacion-ruby-on-rails}
+\end{table}
+
+\subsection{Configuración de la Base de Datos}
+
+\begin{table}[h]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			1.2. & \multicolumn{2}{c}{Configuración de la Base de Datos} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Descripción} \\ \hline
+			\multicolumn{3}{p{12cm}}{
+				Crearemos la base de datos del servidor de producción y obtendremos todos los datos necesarios para conectar con ella. La base de datos será de tipo MySQL.
+			} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Estimación} & 1 \\ \hline
+			\multicolumn{2}{l|}{Prioridad} & 1 \\ \hline
+			\multicolumn{2}{l|}{Dependencias} & 1.1 \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Pruebas de aceptación} \\ \hline
+			\multicolumn{3}{p{12cm}}{ - } \\
+			\hline
+		\end{tabular}
+	\end{center}
+	\caption{Historia de usuario - Configuración de la Base de Datos}
+	\label{tab:analisis/configuracion-de-la-base-de-datos}
+\end{table}
+
+\subsection{Configuración de gitignore}
+
+\begin{table}[h]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			1.3. & \multicolumn{2}{c}{Configuración de gitignore} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Descripción} \\ \hline
+			\multicolumn{3}{p{12cm}}{
+				Configuraremos el fichero \textit{gitignore} para que ignore los cambios en los ficheros de configuración anteriores. De esta forma evitaremos que se sustituyan estos ficheros de la parte local con los del servidor de producción, donde estarán las configuraciones reales. 
+			} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Estimación} & 1 \\ \hline
+			\multicolumn{2}{l|}{Prioridad} & 1 \\ \hline
+			\multicolumn{2}{l|}{Dependencias} & 1.1 1.2 \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Pruebas de aceptación} \\ \hline
+			\multicolumn{3}{p{12cm}}{ - } \\
+			\hline
+		\end{tabular}
+	\end{center}
+	\caption{Historia de usuario - Configuración de gitignore}
+	\label{tab:analisis/configuracion-de-gitignore}
+\end{table}
+
+\subsection{Sistema de alertas Rollbar}
+
+\begin{table}[h]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			1.4. & \multicolumn{2}{c}{Sistema de alertas (\textbf{Rollbar})} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Descripción} \\ \hline
+			\multicolumn{3}{p{12cm}}{
+				Haremos la conexión de nuestro sistema con el servicio Rollbar para recibir alertas sobre errores en tiempo real. Para ello tenemos que registrarnos en su página web a través de la url \cite{RollbarSingUp} y seguiremos la guía de configuración facilitada en \cite{Rollbar1}.
+			} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Estimación} & 1 \\ \hline
+			\multicolumn{2}{l|}{Prioridad} & 1 \\ \hline
+			\multicolumn{2}{l|}{Dependencias} & 1.1 \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Pruebas de aceptación} \\ \hline
+			\multicolumn{3}{p{12cm}}{ - } \\
+			\hline
+		\end{tabular}
+	\end{center}
+	\caption{Historia de usuario - Sistema de alertas (\textbf{Rollbar})}
+	\label{tab:analisis/sistema-de-alertas-rollbar}
+\end{table}
+
+\newpage
+
+\subsection{Desplegar cambios locales a producción}
+
+\begin{table}[h]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			1.5. & \multicolumn{2}{c}{Desplegar cambios locales a producción} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Descripción} \\ \hline
+			\multicolumn{3}{p{12cm}}{
+				Configuraremos todas las acciones que va a realizar el servidor cuando demos la orden de despliegue. Para ello haremos uso de la gema Capistrano. Las acciones que vamos a realizar serán, por orden, las siguientes:
+				\begin{itemize}
+					\item Conectará con la rama \textbf{master} de nuestro proyecto en github y lo descargará.
+					\item Instalará las nuevas gemas que hayamos incluido
+					\item Compilará los assets y los comprimirá
+					\item Ejecutará las migraciones pendientes de ejecutar
+					\item Cambiará el puntero del directorio principal de la web para que apunte a los nuevos cambios
+					\item Reiniciará la Web App
+				\end{itemize}
+			
+				Si al ejecutar el despliegue se producen errores no se producirán cambios en el servidor de producción y \textbf{rollbar} nos notificará el error vía email.
+			} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Estimación} & 5 \\ \hline
+			\multicolumn{2}{l|}{Prioridad} & 1 \\ \hline
+			\multicolumn{2}{l|}{Dependencias} & 1.1 1.2 1.4 \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Pruebas de aceptación} \\ \hline
+			\multicolumn{3}{p{12cm}}{ - } \\
+			\hline
+		\end{tabular}
+	\end{center}
+	\caption{Historia de usuario - Desplegar cambios locales a producción}
+	\label{tab:analisis/desplegar-cambios-locales-a-produccion}
+\end{table}
+
+\newpage
+\subsection{Sistema de alertas Port Monitor}
+
+\begin{table}[h]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			1.6. & \multicolumn{2}{c}{Sistema de alertas {Port Monitor}} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Descripción} \\ \hline
+			\multicolumn{3}{p{12cm}}{
+				Haremos la conexión de nuestro sistema con el servicio Port Monitor para recibir alertas sobre el estado de nuestro dominio. Para ello nos registraremos en su página web a través de la url \cite{PortMonitorSingUp} y seguiremos la navegación normal para que haga cheking de nuestro dominio.
+			} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Estimación} & 1 \\ \hline
+			\multicolumn{2}{l|}{Prioridad} & 1 \\ \hline
+			\multicolumn{2}{l|}{Dependencias} & 1.1 \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Pruebas de aceptación} \\ \hline
+			\multicolumn{3}{p{12cm}}{ - } \\
+			\hline
+		\end{tabular}
+	\end{center}
+	\caption{Historia de usuario - Sistema de alertas {Port Monitor}}
+	\label{tab:analisis/sistema-de-alertas-port-monitor}
+\end{table}
+
+\newpage
+
+\section{Sistema}
+
+\subsection{Configuración de namespaces}
+
+\begin{table}[h]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			2.1. & \multicolumn{2}{c}{Configuración de namespaces} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Descripción} \\ \hline
+			\multicolumn{3}{p{12cm}}{
+				Haremos una separación en la raíz del proyecto a partir de la cual van a crecer nuestros diferentes layouts. El sistema lo vamos a dividir en 3 partes: 
+				\begin{enumerate}
+					\item \textbf{Padawan}: Será la sección a la que podrán acceder sólo los \textit{usuarios de tipo estudiante}.
+					\item \textbf{Manager}: Será la sección a la que podrán acceder sólo los \textit{usuarios de tipo admin}, es la sección en la que \textbf{el profesor} podrá crear contenido para los estudiantes y gestionar gran parte de las funciones de la aplicación.
+					\item \textbf{Super Admin}: Será la sección a la que podrán acceder sólo los \textit{usuarios de tipo admin}. En ella podremos gestionar todos los aspectos posibles de la aplicación. Esta sección está reservada para el mantenimiento de la aplicación.
+				\end{enumerate}
+			} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Estimación} & 1 \\ \hline
+			\multicolumn{2}{l|}{Prioridad} & 1 \\ \hline
+			\multicolumn{2}{l|}{Dependencias} & - \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Pruebas de aceptación} \\ \hline
+			\multicolumn{3}{p{12cm}}{ - Ninguna de estas secciones podrá ser pública.} \\ 
+			\multicolumn{3}{p{12cm}}{ - Sólo se podrá acceder a cada una de las secciones previo registro.} \\
+			\hline
+		\end{tabular}
+	\end{center}
+	\caption{Historia de usuario - Configuración de namespaces}
+	\label{tab:analisis/configuracion-de-namespaces}
+\end{table}
+

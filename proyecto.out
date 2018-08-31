@@ -1,51 +1,51 @@
 \BOOKMARK [0][-]{chapter*.8}{Introducci\363n}{}% 1
 \BOOKMARK [1][-]{section.1.1}{Motivaci\363nMotivacion1, Motivacion2, Motivacion3, Motivacion4, Motivacion5, Motivacion6, Motivacion7, Motivacion8, Motivacion9}{chapter*.8}% 2
 \BOOKMARK [1][-]{section.1.2}{Diccionario de acr\363nimos}{chapter*.8}% 3
-\BOOKMARK [1][-]{section.1.3}{Los retos en SinTime}{chapter*.8}% 4
-\BOOKMARK [2][-]{subsection.1.3.1}{Seguimiento de maestro Jedi}{section.1.3}% 5
-\BOOKMARK [2][-]{subsection.1.3.2}{Pruebas de nivel}{section.1.3}% 6
-\BOOKMARK [2][-]{subsection.1.3.3}{Dominio de la fuerza}{section.1.3}% 7
-\BOOKMARK [2][-]{subsection.1.3.4}{V\355veres}{section.1.3}% 8
-\BOOKMARK [2][-]{subsection.1.3.5}{Audiencia ante el Senado Gal\341ctico}{section.1.3}% 9
-\BOOKMARK [2][-]{subsection.1.3.6}{Viajes Interplanetarios}{section.1.3}% 10
-\BOOKMARK [2][-]{subsection.1.3.7}{Retos de Felicidad}{section.1.3}% 11
-\BOOKMARK [1][-]{section.1.4}{Organizaci\363n de secciones [Rol=Guidoogway]}{chapter*.8}% 12
-\BOOKMARK [1][-]{section.1.5}{Funciones de cada secci\363n [Rol=Guidoogway]}{chapter*.8}% 13
-\BOOKMARK [2][-]{subsection.1.5.1}{Dashboard}{section.1.5}% 14
-\BOOKMARK [2][-]{subsection.1.5.2}{Distritos}{section.1.5}% 15
-\BOOKMARK [2][-]{subsection.1.5.3}{Padawans}{section.1.5}% 16
-\BOOKMARK [2][-]{subsection.1.5.4}{Entregas del usuario}{section.1.5}% 17
-\BOOKMARK [2][-]{subsection.1.5.5}{Movimientos bancarios de un usuario}{section.1.5}% 18
-\BOOKMARK [2][-]{subsection.1.5.6}{Subir de nivel a un usuario}{section.1.5}% 19
-\BOOKMARK [2][-]{subsection.1.5.7}{Datos deportivos de un usuario}{section.1.5}% 20
-\BOOKMARK [2][-]{subsection.1.5.8}{Vacaciones}{section.1.5}% 21
-\BOOKMARK [2][-]{subsection.1.5.9}{Entregas}{section.1.5}% 22
-\BOOKMARK [2][-]{subsection.1.5.10}{Cuestionarios}{section.1.5}% 23
-\BOOKMARK [2][-]{subsection.1.5.11}{Comida}{section.1.5}% 24
-\BOOKMARK [2][-]{subsection.1.5.12}{Agua}{section.1.5}% 25
-\BOOKMARK [2][-]{subsection.1.5.13}{Retos deportivos}{section.1.5}% 26
-\BOOKMARK [2][-]{subsection.1.5.14}{Retos de felicidad}{section.1.5}% 27
-\BOOKMARK [2][-]{subsection.1.5.15}{Pruebas de nivel}{section.1.5}% 28
-\BOOKMARK [2][-]{subsection.1.5.16}{Pruebas de audiencia}{section.1.5}% 29
-\BOOKMARK [2][-]{subsection.1.5.17}{Calificaciones \(Badges\)}{section.1.5}% 30
-\BOOKMARK [2][-]{subsection.1.5.18}{Constantes}{section.1.5}% 31
-\BOOKMARK [2][-]{subsection.1.5.19}{Rangos}{section.1.5}% 32
-\BOOKMARK [2][-]{subsection.1.5.20}{Crear Padawans}{section.1.5}% 33
-\BOOKMARK [2][-]{subsection.1.5.21}{Cartas de privilegios}{section.1.5}% 34
-\BOOKMARK [2][-]{subsection.1.5.22}{Apuestas}{section.1.5}% 35
-\BOOKMARK [2][-]{subsection.1.5.23}{Minas}{section.1.5}% 36
-\BOOKMARK [1][-]{section.1.6}{Organizaci\363n de secciones [Rol=Padawan]}{chapter*.8}% 37
-\BOOKMARK [1][-]{section.1.7}{Funciones de cada secci\363n [Rol=Ciudadano]}{chapter*.8}% 38
-\BOOKMARK [2][-]{subsection.1.7.1}{Todas las secciones}{section.1.7}% 39
-\BOOKMARK [2][-]{subsection.1.7.2}{Home}{section.1.7}% 40
-\BOOKMARK [2][-]{subsection.1.7.3}{Home / Trabajo / Jornada Laboral}{section.1.7}% 41
-\BOOKMARK [1][-]{section.1.8}{Objetivos de un ciudadano \044inTime}{chapter*.8}% 42
-\BOOKMARK [0][-]{chapter*.12}{Especificaci\363n de requisitos}{}% 43
-\BOOKMARK [1][-]{section.2.1}{Introducci\363n}{chapter*.12}% 44
-\BOOKMARK [1][-]{section.2.2}{Requisitos no funcionales}{chapter*.12}% 45
-\BOOKMARK [2][-]{subsection.2.2.1}{RNF 1}{section.2.2}% 46
-\BOOKMARK [2][-]{subsection.2.2.2}{RNF 2}{section.2.2}% 47
-\BOOKMARK [2][-]{subsection.2.2.3}{RNF 3}{section.2.2}% 48
-\BOOKMARK [2][-]{subsection.2.2.4}{RNF 4}{section.2.2}% 49
-\BOOKMARK [2][-]{subsection.2.2.5}{RNF 5}{section.2.2}% 50
-\BOOKMARK [1][-]{section.2.3}{Requisitos funcionales}{chapter*.12}% 51
+\BOOKMARK [1][-]{section.1.3}{Mec\341nicas}{chapter*.8}% 4
+\BOOKMARK [2][-]{subsection.1.3.1}{Sistema de Puntuaci\363n}{section.1.3}% 5
+\BOOKMARK [2][-]{subsection.1.3.2}{Distintivos}{section.1.3}% 6
+\BOOKMARK [2][-]{subsection.1.3.3}{Clasificaciones}{section.1.3}% 7
+\BOOKMARK [1][-]{section.1.4}{La econom\355a en SinTime}{chapter*.8}% 8
+\BOOKMARK [1][-]{section.1.5}{Los retos en SinTime}{chapter*.8}% 9
+\BOOKMARK [1][-]{section.1.6}{Objetivos de un padawan SinTime}{chapter*.8}% 10
+\BOOKMARK [2][-]{subsection.1.6.1}{Seguimiento de maestro Jedi}{section.1.6}% 11
+\BOOKMARK [2][-]{subsection.1.6.2}{Pruebas de nivel}{section.1.6}% 12
+\BOOKMARK [2][-]{subsection.1.6.3}{Dominio de la fuerza}{section.1.6}% 13
+\BOOKMARK [2][-]{subsection.1.6.4}{V\355veres}{section.1.6}% 14
+\BOOKMARK [2][-]{subsection.1.6.5}{Audiencia ante el Senado Gal\341ctico}{section.1.6}% 15
+\BOOKMARK [2][-]{subsection.1.6.6}{Viajes Interplanetarios}{section.1.6}% 16
+\BOOKMARK [2][-]{subsection.1.6.7}{Retos de Felicidad}{section.1.6}% 17
+\BOOKMARK [1][-]{section.1.7}{Secciones}{chapter*.8}% 18
+\BOOKMARK [2][-]{subsection.1.7.1}{Organizaci\363n de secciones [Rol=Guidoogway]}{section.1.7}% 19
+\BOOKMARK [2][-]{subsection.1.7.2}{Funciones de cada secci\363n [Rol=Guidoogway]}{section.1.7}% 20
+\BOOKMARK [2][-]{subsection.1.7.3}{Organizaci\363n de secciones [Rol=Padawan]}{section.1.7}% 21
+\BOOKMARK [2][-]{subsection.1.7.4}{Funciones de cada secci\363n [Rol=Ciudadano]}{section.1.7}% 22
+\BOOKMARK [0][-]{chapter*.28}{Planificaci\363n}{}% 23
+\BOOKMARK [1][-]{section.4.1}{Trello}{chapter*.28}% 24
+\BOOKMARK [1][-]{section.4.2}{Sprints}{chapter*.28}% 25
+\BOOKMARK [0][-]{chapter*.29}{Tecnolog\355as usadas}{}% 26
+\BOOKMARK [1][-]{section.5.1}{Google Analytics}{chapter*.29}% 27
+\BOOKMARK [1][-]{section.5.2}{Rollbar}{chapter*.29}% 28
+\BOOKMARK [1][-]{section.5.3}{Port Monitor PortMonitor}{chapter*.29}% 29
+\BOOKMARK [1][-]{section.5.4}{Runtastic}{chapter*.29}% 30
+\BOOKMARK [1][-]{section.5.5}{Twitter}{chapter*.29}% 31
+\BOOKMARK [0][-]{chapter*.30}{Dise\361o}{}% 32
+\BOOKMARK [1][-]{section.6.1}{Diagrama de clases}{chapter*.30}% 33
+\BOOKMARK [0][-]{chapter*.31}{An\341lisis}{}% 34
+\BOOKMARK [1][-]{section.7.1}{Historias de usuario}{chapter*.31}% 35
+\BOOKMARK [1][-]{section.7.2}{Tarjetas de Servidor de Producci\363n}{chapter*.31}% 36
+\BOOKMARK [2][-]{subsection.7.2.1}{Instalaci\363n de Ruby on Rails}{section.7.2}% 37
+\BOOKMARK [2][-]{subsection.7.2.2}{Configuraci\363n de la Base de Datos}{section.7.2}% 38
+\BOOKMARK [2][-]{subsection.7.2.3}{Configuraci\363n de gitignore}{section.7.2}% 39
+\BOOKMARK [2][-]{subsection.7.2.4}{Sistema de alertas Rollbar}{section.7.2}% 40
+\BOOKMARK [2][-]{subsection.7.2.5}{Desplegar cambios locales a producci\363n}{section.7.2}% 41
+\BOOKMARK [2][-]{subsection.7.2.6}{Sistema de alertas Port Monitor}{section.7.2}% 42
+\BOOKMARK [1][-]{section.7.3}{Sistema}{chapter*.31}% 43
+\BOOKMARK [2][-]{subsection.7.3.1}{Configuraci\363n de namespaces}{section.7.3}% 44
+\BOOKMARK [0][-]{chapter*.32}{Prensa}{}% 45
+\BOOKMARK [1][-]{section.10.1}{Prensa digital}{chapter*.32}% 46
+\BOOKMARK [1][-]{section.10.2}{Radio}{chapter*.32}% 47
+\BOOKMARK [1][-]{section.10.3}{Prensa escrita}{chapter*.32}% 48
+\BOOKMARK [2][-]{subsection.10.3.1}{27/06/2017 - Granada Hoy}{section.10.3}% 49
+\BOOKMARK [2][-]{subsection.10.3.2}{28/06/2017 - Ideal}{section.10.3}% 50
+\BOOKMARK [2][-]{subsection.10.3.3}{27/07/2017 - Ideal}{section.10.3}% 51

@@ -1,4 +1,24 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{PortMonitor}
+{\em \textit{{P}ort {M}onitor}}.
+\newblock [Último acceso online el 5-Junio-2018] -
+  \url{https://es.port-monitor.com}.
+
+\bibitem{PortMonitorSingUp}
+{\em \textit{{P}ort {M}onitor {S}ing {U}p}}.
+\newblock [Último acceso online el 12-Junio-2018] -
+  \url{https://es.port-monitor.com/users/sign-up}.
+
+\bibitem{Rollbar1}
+{\em \textit{{R}uby {D}oc}}.
+\newblock [Último acceso online el 5-Junio-2018] -
+  \url{https://docs.rollbar.com/docs/ruby}.
+
+\bibitem{RollbarSingUp}
+{\em \textit{{R}uby {S}ing {U}p}}.
+\newblock [Último acceso online el 12-Junio-2018] -
+  \url{https://rollbar.com/signup}.
 
 \bibitem{Motivacion1}
 {\sc Contreras, R.S. y~Eguia, J.}

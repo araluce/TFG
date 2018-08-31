@@ -1,0 +1,28 @@
+\setcounter{chapter}{4}
+\setcounter{section}{0}
+\setcounter{subsection}{0}
+\chapter{Planificación}
+
+Para este proyecto hemos seguido una metodología de desarrollo XP (eXtreme Programming). En el destacamos simplicidad en el desarrollo, un feedback constante con el usuario (incluso con los usuarios finales) y un desarrollo iterativo e incremental.\\
+
+\section{Trello}
+
+Para el proceso de planificación hemos decidido usar la herramienta online \textbf{trello}, que es un software de administración de proyectos con interfaz web basada en \textit{cartas kanban}. Con esta herramienta dividimos tareas en columnas para crear un flujo de trabajo organizado, la organización de las tareas las dividiremos en las siguientes columnas:
+
+\begin{itemize}
+	\item \textbf{Backlog:} En esta categoría agruparemos las tareas o mejoras que no sean urgentes pero estaría bien desarrollar. Estas tareas tienen una prioridad mayormente baja o una fecha de desarrollo estipulada en un futuro próximo.
+	\item \textbf{ToDo:} En esta categoría agruparemos las tareas que tengamos pendiente de desarrollo ordenadas por nivel de prioridad de alta a baja.
+	\item \textbf{Doing:} En esta categoría agruparemos las tareas que estemos desarrollando. Cada desarrollador tendrá asignada una y solo una tarea bajo esta categoría siempre. Cuando termine esa tarea la pasará a la siguiente categoría y escogerá otra tarea de la categoría \textbf{ToDo}. En este caso, como es un desarrollo de una sola persona siempre habrá una sola tarea en esta categoría.
+	\item \textbf{QA:} En esta categoría agruparemos las tareas ya terminadas. La función de esta es la de revisar que el nuevo desarrollo se adapta bien al código de la rama master. Si supera los test se hará un PR y se pasará a la siguiente categoría. En caso contrario esta tarea volverá a la categoría \textbf{Doing}.
+	\item \textbf{Done: } En esta categoría agruparemos las tareas terminadas que hayan pasado los test. Se acepta el Pull Request y se hace un merge con la rama master. Esta rama no se desplegará hasta que llegue la fecha final del Sprint.
+\end{itemize}
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.8\textwidth]{imagenes/trello.png}
+	\caption{Trello}
+	\label{trello}
+\end{figure}
+
+\section{Sprints}
+Los sprint son \textit{periodos de desarrollo} pactados con el cliente en el que definimos un paquete de nuevas funcionalidades. En este proyecto vamos a definir el Sprint tipo 2 + 1, esto es, dos semanas de desarrollo + una semana de testing.
