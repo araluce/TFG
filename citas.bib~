@@ -1,3 +1,8 @@
+@misc{Introduccion1,
+	title = "\textit{Ideas para jugar en clase y gamificar el aula de ELE}. {V} {F}oro {",
+	year = "2016",
+	author = "J.Ramón Rodríguez y Patricia Santervás "
+}
 @misc{Motivacion1,
 	title = "\textit{Gamificaci\'on en aulas universitarias}. {B}ellaterra: {I}nstitut de la {C}omunicaci\'o-{U}niversitat {A}ut\`onoma de {B}arcelona.",
 	year = "2016",
@@ -47,4 +52,19 @@
 @manual{Rollbar1,
 	title = "\textit{{R}uby {D}oc}",
 	note = "[Último acceso online el 5-Junio-2018] - \url{https://docs.rollbar.com/docs/ruby}"
+}
+
+@manual{RollbarSingUp,
+	title = "\textit{{R}uby {S}ing {U}p}",
+	note = "[Último acceso online el 12-Junio-2018] - \url{https://rollbar.com/signup}"
+}
+
+@manual{PortMonitor,
+	title = "\textit{{P}ort {M}onitor}",
+	note = "[Último acceso online el 5-Junio-2018] - \url{https://es.port-monitor.com}"
+}
+
+@manual{PortMonitorSingUp,
+title = "\textit{{P}ort {M}onitor {S}ing {U}p}",
+note = "[Último acceso online el 12-Junio-2018] - \url{https://es.port-monitor.com/users/sign-up}"
 }
