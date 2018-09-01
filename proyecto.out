@@ -1,49 +1,47 @@
 \BOOKMARK [0][-]{chapter*.8}{Introducci\363n}{}% 1
 \BOOKMARK [1][-]{section.1.1}{Motivaci\363nMotivacion1, Motivacion2, Motivacion3, Motivacion4, Motivacion5, Motivacion6, Motivacion7, Motivacion8, Motivacion9}{chapter*.8}% 2
 \BOOKMARK [1][-]{section.1.2}{Diccionario de acr\363nimos}{chapter*.8}% 3
-\BOOKMARK [1][-]{section.1.3}{Din\341micas, Mec\341nicas y Componentes Introduccion1}{chapter*.8}% 4
-\BOOKMARK [2][-]{subsection.1.3.1}{Din\341micas}{section.1.3}% 5
-\BOOKMARK [1][-]{section.1.4}{La econom\355a en SinTime}{chapter*.8}% 6
-\BOOKMARK [1][-]{section.1.5}{Los retos en SinTime}{chapter*.8}% 7
-\BOOKMARK [1][-]{section.1.6}{Objetivos de un padawan SinTime}{chapter*.8}% 8
-\BOOKMARK [2][-]{subsection.1.6.1}{Seguimiento de maestro Jedi}{section.1.6}% 9
-\BOOKMARK [2][-]{subsection.1.6.2}{Pruebas de nivel}{section.1.6}% 10
-\BOOKMARK [2][-]{subsection.1.6.3}{Dominio de la fuerza}{section.1.6}% 11
-\BOOKMARK [2][-]{subsection.1.6.4}{V\355veres}{section.1.6}% 12
-\BOOKMARK [2][-]{subsection.1.6.5}{Audiencia ante el Senado Gal\341ctico}{section.1.6}% 13
-\BOOKMARK [2][-]{subsection.1.6.6}{Viajes Interplanetarios}{section.1.6}% 14
-\BOOKMARK [2][-]{subsection.1.6.7}{Retos de Felicidad}{section.1.6}% 15
-\BOOKMARK [1][-]{section.1.7}{Secciones}{chapter*.8}% 16
-\BOOKMARK [2][-]{subsection.1.7.1}{Organizaci\363n de secciones [Rol=Guidoogway]}{section.1.7}% 17
-\BOOKMARK [2][-]{subsection.1.7.2}{Funciones de cada secci\363n [Rol=Guidoogway]}{section.1.7}% 18
-\BOOKMARK [2][-]{subsection.1.7.3}{Organizaci\363n de secciones [Rol=Padawan]}{section.1.7}% 19
-\BOOKMARK [2][-]{subsection.1.7.4}{Funciones de cada secci\363n [Rol=Ciudadano]}{section.1.7}% 20
-\BOOKMARK [0][-]{chapter*.28}{Planificaci\363n}{}% 21
-\BOOKMARK [1][-]{section.4.1}{Trello}{chapter*.28}% 22
-\BOOKMARK [1][-]{section.4.2}{Sprints}{chapter*.28}% 23
-\BOOKMARK [0][-]{chapter*.29}{Tecnolog\355as usadas}{}% 24
-\BOOKMARK [1][-]{section.5.1}{Google Analytics}{chapter*.29}% 25
-\BOOKMARK [1][-]{section.5.2}{Rollbar}{chapter*.29}% 26
-\BOOKMARK [1][-]{section.5.3}{Port Monitor PortMonitor}{chapter*.29}% 27
-\BOOKMARK [1][-]{section.5.4}{Runtastic}{chapter*.29}% 28
-\BOOKMARK [1][-]{section.5.5}{Twitter}{chapter*.29}% 29
-\BOOKMARK [0][-]{chapter*.30}{Dise\361o}{}% 30
-\BOOKMARK [1][-]{section.6.1}{Diagrama de clases}{chapter*.30}% 31
-\BOOKMARK [0][-]{chapter*.31}{An\341lisis}{}% 32
-\BOOKMARK [1][-]{section.7.1}{Historias de usuario}{chapter*.31}% 33
-\BOOKMARK [1][-]{section.7.2}{Tarjetas de Servidor de Producci\363n}{chapter*.31}% 34
-\BOOKMARK [2][-]{subsection.7.2.1}{Instalaci\363n de Ruby on Rails}{section.7.2}% 35
-\BOOKMARK [2][-]{subsection.7.2.2}{Configuraci\363n de la Base de Datos}{section.7.2}% 36
-\BOOKMARK [2][-]{subsection.7.2.3}{Configuraci\363n de gitignore}{section.7.2}% 37
-\BOOKMARK [2][-]{subsection.7.2.4}{Sistema de alertas Rollbar}{section.7.2}% 38
-\BOOKMARK [2][-]{subsection.7.2.5}{Desplegar cambios locales a producci\363n}{section.7.2}% 39
-\BOOKMARK [2][-]{subsection.7.2.6}{Sistema de alertas Port Monitor}{section.7.2}% 40
-\BOOKMARK [1][-]{section.7.3}{Sistema}{chapter*.31}% 41
-\BOOKMARK [2][-]{subsection.7.3.1}{Configuraci\363n de namespaces}{section.7.3}% 42
-\BOOKMARK [0][-]{chapter*.32}{Prensa}{}% 43
-\BOOKMARK [1][-]{section.10.1}{Prensa digital}{chapter*.32}% 44
-\BOOKMARK [1][-]{section.10.2}{Radio}{chapter*.32}% 45
-\BOOKMARK [1][-]{section.10.3}{Prensa escrita}{chapter*.32}% 46
-\BOOKMARK [2][-]{subsection.10.3.1}{27/06/2017 - Granada Hoy}{section.10.3}% 47
-\BOOKMARK [2][-]{subsection.10.3.2}{28/06/2017 - Ideal}{section.10.3}% 48
-\BOOKMARK [2][-]{subsection.10.3.3}{27/07/2017 - Ideal}{section.10.3}% 49
+\BOOKMARK [1][-]{section.1.3}{La econom\355a en SinTime}{chapter*.8}% 4
+\BOOKMARK [1][-]{section.1.4}{Los retos en SinTime}{chapter*.8}% 5
+\BOOKMARK [1][-]{section.1.5}{Objetivos de un padawan SinTime}{chapter*.8}% 6
+\BOOKMARK [2][-]{subsection.1.5.1}{Seguimiento de maestro Jedi}{section.1.5}% 7
+\BOOKMARK [2][-]{subsection.1.5.2}{Pruebas de nivel}{section.1.5}% 8
+\BOOKMARK [2][-]{subsection.1.5.3}{Dominio de la fuerza}{section.1.5}% 9
+\BOOKMARK [2][-]{subsection.1.5.4}{V\355veres}{section.1.5}% 10
+\BOOKMARK [2][-]{subsection.1.5.5}{Audiencia ante el Senado Gal\341ctico}{section.1.5}% 11
+\BOOKMARK [2][-]{subsection.1.5.6}{Viajes Interplanetarios}{section.1.5}% 12
+\BOOKMARK [2][-]{subsection.1.5.7}{Retos de Felicidad}{section.1.5}% 13
+\BOOKMARK [1][-]{section.1.6}{Secciones}{chapter*.8}% 14
+\BOOKMARK [2][-]{subsection.1.6.1}{Organizaci\363n de secciones [Rol=Guidoogway]}{section.1.6}% 15
+\BOOKMARK [2][-]{subsection.1.6.2}{Funciones de cada secci\363n [Rol=Guidoogway]}{section.1.6}% 16
+\BOOKMARK [2][-]{subsection.1.6.3}{Organizaci\363n de secciones [Rol=Padawan]}{section.1.6}% 17
+\BOOKMARK [2][-]{subsection.1.6.4}{Funciones de cada secci\363n [Rol=Ciudadano]}{section.1.6}% 18
+\BOOKMARK [0][-]{chapter*.28}{Planificaci\363n}{}% 19
+\BOOKMARK [1][-]{section.4.1}{Trello}{chapter*.28}% 20
+\BOOKMARK [1][-]{section.4.2}{Sprints}{chapter*.28}% 21
+\BOOKMARK [0][-]{chapter*.29}{Tecnolog\355as usadas}{}% 22
+\BOOKMARK [1][-]{section.5.1}{Google Analytics}{chapter*.29}% 23
+\BOOKMARK [1][-]{section.5.2}{Rollbar}{chapter*.29}% 24
+\BOOKMARK [1][-]{section.5.3}{Port Monitor PortMonitor}{chapter*.29}% 25
+\BOOKMARK [1][-]{section.5.4}{Runtastic}{chapter*.29}% 26
+\BOOKMARK [1][-]{section.5.5}{Twitter}{chapter*.29}% 27
+\BOOKMARK [0][-]{chapter*.30}{Dise\361o}{}% 28
+\BOOKMARK [1][-]{section.6.1}{Diagrama de clases}{chapter*.30}% 29
+\BOOKMARK [0][-]{chapter*.31}{An\341lisis}{}% 30
+\BOOKMARK [1][-]{section.7.1}{Historias de usuario}{chapter*.31}% 31
+\BOOKMARK [1][-]{section.7.2}{Tarjetas de Servidor de Producci\363n}{chapter*.31}% 32
+\BOOKMARK [2][-]{subsection.7.2.1}{Instalaci\363n de Ruby on Rails}{section.7.2}% 33
+\BOOKMARK [2][-]{subsection.7.2.2}{Configuraci\363n de la Base de Datos}{section.7.2}% 34
+\BOOKMARK [2][-]{subsection.7.2.3}{Configuraci\363n de gitignore}{section.7.2}% 35
+\BOOKMARK [2][-]{subsection.7.2.4}{Sistema de alertas Rollbar}{section.7.2}% 36
+\BOOKMARK [2][-]{subsection.7.2.5}{Desplegar cambios locales a producci\363n}{section.7.2}% 37
+\BOOKMARK [2][-]{subsection.7.2.6}{Sistema de alertas Port Monitor}{section.7.2}% 38
+\BOOKMARK [1][-]{section.7.3}{Sistema}{chapter*.31}% 39
+\BOOKMARK [2][-]{subsection.7.3.1}{Configuraci\363n de namespaces}{section.7.3}% 40
+\BOOKMARK [0][-]{chapter*.32}{Prensa}{}% 41
+\BOOKMARK [1][-]{section.10.1}{Prensa digital}{chapter*.32}% 42
+\BOOKMARK [1][-]{section.10.2}{Radio}{chapter*.32}% 43
+\BOOKMARK [1][-]{section.10.3}{Prensa escrita}{chapter*.32}% 44
+\BOOKMARK [2][-]{subsection.10.3.1}{27/06/2017 - Granada Hoy}{section.10.3}% 45
+\BOOKMARK [2][-]{subsection.10.3.2}{28/06/2017 - Ideal}{section.10.3}% 46
+\BOOKMARK [2][-]{subsection.10.3.3}{27/07/2017 - Ideal}{section.10.3}% 47
