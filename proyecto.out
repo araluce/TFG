@@ -26,29 +26,32 @@
 \BOOKMARK [0][-]{chapter*.30}{Plan de entregas}{}% 26
 \BOOKMARK [1][-]{section.4.1}{Breve descripci\363n del alcance del sistema}{chapter*.30}% 27
 \BOOKMARK [1][-]{section.4.2}{Listado inicial de Historias de Usuario}{chapter*.30}% 28
-\BOOKMARK [0][-]{chapter*.31}{Tecnolog\355as usadas}{}% 29
-\BOOKMARK [1][-]{section.5.1}{Google Analytics}{chapter*.31}% 30
-\BOOKMARK [1][-]{section.5.2}{Rollbar}{chapter*.31}% 31
-\BOOKMARK [1][-]{section.5.3}{Port Monitor PortMonitor}{chapter*.31}% 32
-\BOOKMARK [1][-]{section.5.4}{Runtastic}{chapter*.31}% 33
-\BOOKMARK [1][-]{section.5.5}{Twitter}{chapter*.31}% 34
-\BOOKMARK [0][-]{chapter*.32}{Dise\361o}{}% 35
-\BOOKMARK [1][-]{section.6.1}{Diagrama de clases}{chapter*.32}% 36
-\BOOKMARK [0][-]{chapter*.33}{An\341lisis}{}% 37
-\BOOKMARK [1][-]{section.7.1}{Historias de usuario}{chapter*.33}% 38
-\BOOKMARK [1][-]{section.7.2}{Tarjetas de Servidor de Producci\363n}{chapter*.33}% 39
-\BOOKMARK [2][-]{subsection.7.2.1}{Instalaci\363n de Ruby on Rails}{section.7.2}% 40
-\BOOKMARK [2][-]{subsection.7.2.2}{Configuraci\363n de la Base de Datos}{section.7.2}% 41
-\BOOKMARK [2][-]{subsection.7.2.3}{Configuraci\363n de gitignore}{section.7.2}% 42
-\BOOKMARK [2][-]{subsection.7.2.4}{Sistema de alertas Rollbar}{section.7.2}% 43
-\BOOKMARK [2][-]{subsection.7.2.5}{Desplegar cambios locales a producci\363n}{section.7.2}% 44
-\BOOKMARK [2][-]{subsection.7.2.6}{Sistema de alertas Port Monitor}{section.7.2}% 45
-\BOOKMARK [1][-]{section.7.3}{Sistema}{chapter*.33}% 46
-\BOOKMARK [2][-]{subsection.7.3.1}{Configuraci\363n de namespaces}{section.7.3}% 47
-\BOOKMARK [0][-]{chapter*.34}{Prensa}{}% 48
-\BOOKMARK [1][-]{section.8.1}{Prensa digital}{chapter*.34}% 49
-\BOOKMARK [1][-]{section.8.2}{Radio}{chapter*.34}% 50
-\BOOKMARK [1][-]{section.8.3}{Prensa escrita}{chapter*.34}% 51
-\BOOKMARK [2][-]{subsection.8.3.1}{27/06/2017 - Granada Hoy}{section.8.3}% 52
-\BOOKMARK [2][-]{subsection.8.3.2}{28/06/2017 - Ideal}{section.8.3}% 53
-\BOOKMARK [2][-]{subsection.8.3.3}{27/07/2017 - Ideal}{section.8.3}% 54
+\BOOKMARK [1][-]{section.4.3}{C\341lculo de la velocidad del equipo}{chapter*.30}% 29
+\BOOKMARK [1][-]{section.4.4}{Descripci\363n de las entregas}{chapter*.30}% 30
+\BOOKMARK [1][-]{section.4.5}{Lista Inicial del Producto}{chapter*.30}% 31
+\BOOKMARK [0][-]{chapter*.31}{Tecnolog\355as usadas}{}% 32
+\BOOKMARK [1][-]{section.5.1}{Google Analytics}{chapter*.31}% 33
+\BOOKMARK [1][-]{section.5.2}{Rollbar}{chapter*.31}% 34
+\BOOKMARK [1][-]{section.5.3}{Port Monitor PortMonitor}{chapter*.31}% 35
+\BOOKMARK [1][-]{section.5.4}{Runtastic}{chapter*.31}% 36
+\BOOKMARK [1][-]{section.5.5}{Twitter}{chapter*.31}% 37
+\BOOKMARK [0][-]{chapter*.32}{Dise\361o}{}% 38
+\BOOKMARK [1][-]{section.6.1}{Diagrama de clases}{chapter*.32}% 39
+\BOOKMARK [0][-]{chapter*.33}{An\341lisis}{}% 40
+\BOOKMARK [1][-]{section.7.1}{Historias de usuario}{chapter*.33}% 41
+\BOOKMARK [1][-]{section.7.2}{Tarjetas de Servidor de Producci\363n}{chapter*.33}% 42
+\BOOKMARK [2][-]{subsection.7.2.1}{Instalaci\363n de Ruby on Rails}{section.7.2}% 43
+\BOOKMARK [2][-]{subsection.7.2.2}{Configuraci\363n de la Base de Datos}{section.7.2}% 44
+\BOOKMARK [2][-]{subsection.7.2.3}{Configuraci\363n de gitignore}{section.7.2}% 45
+\BOOKMARK [2][-]{subsection.7.2.4}{Sistema de alertas Rollbar}{section.7.2}% 46
+\BOOKMARK [2][-]{subsection.7.2.5}{Desplegar cambios locales a producci\363n}{section.7.2}% 47
+\BOOKMARK [2][-]{subsection.7.2.6}{Sistema de alertas Port Monitor}{section.7.2}% 48
+\BOOKMARK [1][-]{section.7.3}{Sistema}{chapter*.33}% 49
+\BOOKMARK [2][-]{subsection.7.3.1}{Configuraci\363n de namespaces}{section.7.3}% 50
+\BOOKMARK [0][-]{chapter*.34}{Prensa}{}% 51
+\BOOKMARK [1][-]{section.8.1}{Prensa digital}{chapter*.34}% 52
+\BOOKMARK [1][-]{section.8.2}{Radio}{chapter*.34}% 53
+\BOOKMARK [1][-]{section.8.3}{Prensa escrita}{chapter*.34}% 54
+\BOOKMARK [2][-]{subsection.8.3.1}{27/06/2017 - Granada Hoy}{section.8.3}% 55
+\BOOKMARK [2][-]{subsection.8.3.2}{28/06/2017 - Ideal}{section.8.3}% 56
+\BOOKMARK [2][-]{subsection.8.3.3}{27/07/2017 - Ideal}{section.8.3}% 57

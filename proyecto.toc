@@ -46,29 +46,32 @@
 \contentsline {chapter}{Plan de entregas}{\es@scroman {xxvii}}{chapter*.30}
 \contentsline {section}{\numberline {4.1}Breve descripci\IeC {\'o}n del alcance del sistema}{\es@scroman {xxvii}}{section.4.1}
 \contentsline {section}{\numberline {4.2}Listado inicial de Historias de Usuario}{\es@scroman {xxvii}}{section.4.2}
-\contentsline {chapter}{Tecnolog\IeC {\'\i }as usadas}{\es@scroman {xxix}}{chapter*.31}
-\contentsline {section}{\numberline {5.1}Google Analytics}{\es@scroman {xxx}}{section.5.1}
-\contentsline {section}{\numberline {5.2}Rollbar}{\es@scroman {xxxi}}{section.5.2}
-\contentsline {section}{\numberline {5.3}Port Monitor \cite {PortMonitor}}{\es@scroman {xxxiii}}{section.5.3}
-\contentsline {section}{\numberline {5.4}Runtastic}{\es@scroman {xxxiii}}{section.5.4}
-\contentsline {section}{\numberline {5.5}Twitter}{\es@scroman {xxxiv}}{section.5.5}
-\contentsline {chapter}{Dise\IeC {\~n}o}{\es@scroman {xxxv}}{chapter*.32}
-\contentsline {section}{\numberline {6.1}Diagrama de clases}{\es@scroman {xxxv}}{section.6.1}
-\contentsline {chapter}{An\IeC {\'a}lisis}{\es@scroman {xxxvii}}{chapter*.33}
-\contentsline {section}{\numberline {7.1}Historias de usuario}{\es@scroman {xxxvii}}{section.7.1}
-\contentsline {section}{\numberline {7.2}Tarjetas de Servidor de Producci\IeC {\'o}n}{\es@scroman {xxxviii}}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Instalaci\IeC {\'o}n de Ruby on Rails}{\es@scroman {xxxviii}}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Configuraci\IeC {\'o}n de la Base de Datos}{\es@scroman {xxxviii}}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}Configuraci\IeC {\'o}n de gitignore}{\es@scroman {xxxix}}{subsection.7.2.3}
-\contentsline {subsection}{\numberline {7.2.4}Sistema de alertas Rollbar}{\es@scroman {xxxix}}{subsection.7.2.4}
-\contentsline {subsection}{\numberline {7.2.5}Desplegar cambios locales a producci\IeC {\'o}n}{\es@scroman {xl}}{subsection.7.2.5}
-\contentsline {subsection}{\numberline {7.2.6}Sistema de alertas Port Monitor}{\es@scroman {xli}}{subsection.7.2.6}
-\contentsline {section}{\numberline {7.3}Sistema}{\es@scroman {xlii}}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Configuraci\IeC {\'o}n de namespaces}{\es@scroman {xlii}}{subsection.7.3.1}
-\contentsline {chapter}{Prensa}{\es@scroman {xliii}}{chapter*.34}
-\contentsline {section}{\numberline {8.1}Prensa digital}{\es@scroman {xliii}}{section.8.1}
-\contentsline {section}{\numberline {8.2}Radio}{\es@scroman {xliv}}{section.8.2}
-\contentsline {section}{\numberline {8.3}Prensa escrita}{\es@scroman {xlv}}{section.8.3}
-\contentsline {subsection}{\numberline {8.3.1}27/06/2017 - Granada Hoy}{\es@scroman {xlv}}{subsection.8.3.1}
-\contentsline {subsection}{\numberline {8.3.2}28/06/2017 - Ideal}{\es@scroman {xlvi}}{subsection.8.3.2}
-\contentsline {subsection}{\numberline {8.3.3}27/07/2017 - Ideal}{\es@scroman {xlvii}}{subsection.8.3.3}
+\contentsline {section}{\numberline {4.3}C\IeC {\'a}lculo de la velocidad del equipo}{\es@scroman {xxviii}}{section.4.3}
+\contentsline {section}{\numberline {4.4}Descripci\IeC {\'o}n de las entregas}{\es@scroman {xxviii}}{section.4.4}
+\contentsline {section}{\numberline {4.5}Lista Inicial del Producto}{\es@scroman {xxix}}{section.4.5}
+\contentsline {chapter}{Tecnolog\IeC {\'\i }as usadas}{\es@scroman {xxxi}}{chapter*.31}
+\contentsline {section}{\numberline {5.1}Google Analytics}{\es@scroman {xxxii}}{section.5.1}
+\contentsline {section}{\numberline {5.2}Rollbar}{\es@scroman {xxxiii}}{section.5.2}
+\contentsline {section}{\numberline {5.3}Port Monitor \cite {PortMonitor}}{\es@scroman {xxxv}}{section.5.3}
+\contentsline {section}{\numberline {5.4}Runtastic}{\es@scroman {xxxv}}{section.5.4}
+\contentsline {section}{\numberline {5.5}Twitter}{\es@scroman {xxxvi}}{section.5.5}
+\contentsline {chapter}{Dise\IeC {\~n}o}{\es@scroman {xxxvii}}{chapter*.32}
+\contentsline {section}{\numberline {6.1}Diagrama de clases}{\es@scroman {xxxvii}}{section.6.1}
+\contentsline {chapter}{An\IeC {\'a}lisis}{\es@scroman {xxxix}}{chapter*.33}
+\contentsline {section}{\numberline {7.1}Historias de usuario}{\es@scroman {xxxix}}{section.7.1}
+\contentsline {section}{\numberline {7.2}Tarjetas de Servidor de Producci\IeC {\'o}n}{\es@scroman {xl}}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Instalaci\IeC {\'o}n de Ruby on Rails}{\es@scroman {xl}}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Configuraci\IeC {\'o}n de la Base de Datos}{\es@scroman {xl}}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Configuraci\IeC {\'o}n de gitignore}{\es@scroman {xli}}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.4}Sistema de alertas Rollbar}{\es@scroman {xli}}{subsection.7.2.4}
+\contentsline {subsection}{\numberline {7.2.5}Desplegar cambios locales a producci\IeC {\'o}n}{\es@scroman {xlii}}{subsection.7.2.5}
+\contentsline {subsection}{\numberline {7.2.6}Sistema de alertas Port Monitor}{\es@scroman {xliii}}{subsection.7.2.6}
+\contentsline {section}{\numberline {7.3}Sistema}{\es@scroman {xliv}}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Configuraci\IeC {\'o}n de namespaces}{\es@scroman {xliv}}{subsection.7.3.1}
+\contentsline {chapter}{Prensa}{\es@scroman {xlv}}{chapter*.34}
+\contentsline {section}{\numberline {8.1}Prensa digital}{\es@scroman {xlv}}{section.8.1}
+\contentsline {section}{\numberline {8.2}Radio}{\es@scroman {xlvi}}{section.8.2}
+\contentsline {section}{\numberline {8.3}Prensa escrita}{\es@scroman {xlvii}}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}27/06/2017 - Granada Hoy}{\es@scroman {xlvii}}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}28/06/2017 - Ideal}{\es@scroman {xlviii}}{subsection.8.3.2}
+\contentsline {subsection}{\numberline {8.3.3}27/07/2017 - Ideal}{\es@scroman {xlix}}{subsection.8.3.3}
