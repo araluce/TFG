@@ -39,7 +39,7 @@
 \contentsline {chapter}{Planificaci\IeC {\'o}n}{\es@scroman {xxi}}{chapter*.28}
 \contentsline {section}{\numberline {4.1}Trello}{\es@scroman {xxi}}{section.4.1}
 \contentsline {section}{\numberline {4.2}Sprints}{\es@scroman {xxii}}{section.4.2}
-\contentsline {section}{\numberline {4.3}T\IeC {\'e}cnica Pomodoro (Productividad)}{\es@scroman {xxii}}{section.4.3}
+\contentsline {section}{\numberline {4.3}T\IeC {\'e}cnica Pomodoro (Productividad) \cite {Pomodoro}}{\es@scroman {xxii}}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Los objetivos}{\es@scroman {xxiii}}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Los principios}{\es@scroman {xxiii}}{subsection.4.3.2}
 \contentsline {section}{\numberline {4.4}Plan de entregas}{\es@scroman {xxiv}}{section.4.4}

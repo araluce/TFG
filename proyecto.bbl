@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{Pomodoro}
+{\em \textit{{P}omodoro {T}imer}}.
+\newblock [Último acceso online el 1-Septiembre-2018] -
+  \url{https://pomodoro-tracker.com}.
+
 \bibitem{PortMonitor}
 {\em \textit{{P}ort {M}onitor}}.
 \newblock [Último acceso online el 5-Junio-2018] -
@@ -72,10 +77,5 @@
 \newblock \textit{{E}xperiencias de aplicaci\'on de estrategias de
   gamificaci\'on a entornos de aprendizaje universitario}. {R}e{V}ision, 7(2),
   27-43., 2014.
-
-\bibitem{Introduccion1}
-{\sc y~Patricia~Santervás, J.~R.}
-\newblock \textit{Ideas para jugar en clase y gamificar el aula de ELE}. {V}
-  {F}oro {N}acional de {C}ervantes {E}.{I}.
 
 \end{thebibliography}

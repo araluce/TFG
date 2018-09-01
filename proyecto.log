@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6650) (preloaded format=pdflatex 2018.5.14)  1 SEP 2018 10:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6650) (preloaded format=pdflatex 2018.5.14)  1 SEP 2018 10:05
 entering extended mode
 **./proyecto.tex
 (proyecto.tex
@@ -3156,7 +3156,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 275.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 275.
-<imagenes/Objetivo1_new.png, id=513, 307.1475pt x 55.20625pt>
+<imagenes/Objetivo1_new.png, id=515, 307.1475pt x 55.20625pt>
 File: imagenes/Objetivo1_new.png Graphic file (type png)
 <use imagenes/Objetivo1_new.png>
 Package pdftex.def Info: imagenes/Objetivo1_new.png  used on input line 282.
@@ -3166,12 +3166,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 287--288
 
  []
 
-<imagenes/Objetivo2_new.png, id=514, 295.1025pt x 207.77625pt>
+<imagenes/Objetivo2_new.png, id=516, 295.1025pt x 207.77625pt>
 File: imagenes/Objetivo2_new.png Graphic file (type png)
 <use imagenes/Objetivo2_new.png>
 Package pdftex.def Info: imagenes/Objetivo2_new.png  used on input line 307.
 (pdftex.def)             Requested size: 143.9978pt x 101.3864pt.
-<imagenes/Objetivo2b_new.png, id=515, 300.12125pt x 118.4425pt>
+<imagenes/Objetivo2b_new.png, id=517, 300.12125pt x 118.4425pt>
 File: imagenes/Objetivo2b_new.png Graphic file (type png)
 <use imagenes/Objetivo2b_new.png>
 Package pdftex.def Info: imagenes/Objetivo2b_new.png  used on input line 308.
@@ -3181,24 +3181,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 317--318
 
  []
 
-<imagenes/avisos/dominio_de_la_fuerza.png, id=516, 141.52875pt x 172.645pt>
+<imagenes/avisos/dominio_de_la_fuerza.png, id=518, 141.52875pt x 172.645pt>
 File: imagenes/avisos/dominio_de_la_fuerza.png Graphic file (type png)
 <use imagenes/avisos/dominio_de_la_fuerza.png>
 Package pdftex.def Info: imagenes/avisos/dominio_de_la_fuerza.png  used on inpu
 t line 324.
 (pdftex.def)             Requested size: 90.00148pt x 113.81169pt.
-<imagenes/avisos/prueba_nivel.png, id=517, 141.52875pt x 172.645pt>
+<imagenes/avisos/prueba_nivel.png, id=519, 141.52875pt x 172.645pt>
 File: imagenes/avisos/prueba_nivel.png Graphic file (type png)
 <use imagenes/avisos/prueba_nivel.png>
 Package pdftex.def Info: imagenes/avisos/prueba_nivel.png  used on input line 3
 27.
 (pdftex.def)             Requested size: 90.00148pt x 113.81169pt.
-<imagenes/avisos/mina.png, id=518, 136.51pt x 172.645pt>
+<imagenes/avisos/mina.png, id=520, 136.51pt x 172.645pt>
 File: imagenes/avisos/mina.png Graphic file (type png)
 <use imagenes/avisos/mina.png>
 Package pdftex.def Info: imagenes/avisos/mina.png  used on input line 329.
 (pdftex.def)             Requested size: 90.00105pt x 113.81169pt.
-<imagenes/avisos/chat.png, id=519, 136.51pt x 171.64125pt>
+<imagenes/avisos/chat.png, id=521, 136.51pt x 171.64125pt>
 File: imagenes/avisos/chat.png Graphic file (type png)
 <use imagenes/avisos/chat.png>
 Package pdftex.def Info: imagenes/avisos/chat.png  used on input line 331.
@@ -3239,7 +3239,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 340.
 [18 <./imagenes/Objetivo1_new.png> <./imagenes/Objetivo2_new.png> <./imagenes/O
 bjetivo2b_new.png>]
-<imagenes/secciones/padawan/home.png, id=525, 297.11pt x 780.9175pt>
+<imagenes/secciones/padawan/home.png, id=527, 297.11pt x 780.9175pt>
 File: imagenes/secciones/padawan/home.png Graphic file (type png)
 <use imagenes/secciones/padawan/home.png>
 Package pdftex.def Info: imagenes/secciones/padawan/home.png  used on input lin
@@ -3375,7 +3375,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 18.
 [21]
-<imagenes/trello.png, id=540, 1400.23125pt x 943.525pt>
+<imagenes/trello.png, id=542, 1400.23125pt x 943.525pt>
 File: imagenes/trello.png Graphic file (type png)
 <use imagenes/trello.png>
 Package pdftex.def Info: imagenes/trello.png  used on input line 22.
@@ -3404,6 +3404,11 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 30.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 30.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 30.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
@@ -3636,7 +3641,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 9.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 9.
-<imagenes/tecnologias/analytics.png, id=561, 500.87125pt x 761.84625pt>
+<imagenes/tecnologias/analytics.png, id=564, 500.87125pt x 761.84625pt>
 File: imagenes/tecnologias/analytics.png Graphic file (type png)
 <use imagenes/tecnologias/analytics.png>
 Package pdftex.def Info: imagenes/tecnologias/analytics.png  used on input line
@@ -3698,7 +3703,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--23
 
  []
 
-<imagenes/tecnologias/rollbar_error_mail.png, id=567, 1081.03876pt x 857.2025pt
+<imagenes/tecnologias/rollbar_error_mail.png, id=570, 1081.03876pt x 857.2025pt
 >
 File: imagenes/tecnologias/rollbar_error_mail.png Graphic file (type png)
 <use imagenes/tecnologias/rollbar_error_mail.png>
@@ -3736,14 +3741,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
-<imagenes/tecnologias/rollbar_error_traceback.png, id=574, 1180.41pt x 777.9062
+<imagenes/tecnologias/rollbar_error_traceback.png, id=577, 1180.41pt x 777.9062
 5pt>
 File: imagenes/tecnologias/rollbar_error_traceback.png Graphic file (type png)
 <use imagenes/tecnologias/rollbar_error_traceback.png>
 Package pdftex.def Info: imagenes/tecnologias/rollbar_error_traceback.png  used
  on input line 40.
 (pdftex.def)             Requested size: 143.9978pt x 94.8878pt.
-<imagenes/tecnologias/rollbar_error_ocurrences.png, id=575, 1183.42125pt x 649.
+<imagenes/tecnologias/rollbar_error_ocurrences.png, id=578, 1183.42125pt x 649.
 42625pt>
 File: imagenes/tecnologias/rollbar_error_ocurrences.png Graphic file (type png)
 
@@ -3751,7 +3756,7 @@ File: imagenes/tecnologias/rollbar_error_ocurrences.png Graphic file (type png)
 Package pdftex.def Info: imagenes/tecnologias/rollbar_error_ocurrences.png  use
 d on input line 47.
 (pdftex.def)             Requested size: 143.9978pt x 79.01782pt.
-<imagenes/tecnologias/rollbar_error_browser_os.png, id=576, 1001.7425pt x 732.7
+<imagenes/tecnologias/rollbar_error_browser_os.png, id=579, 1001.7425pt x 732.7
 375pt>
 File: imagenes/tecnologias/rollbar_error_browser_os.png Graphic file (type png)
 
@@ -3866,7 +3871,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
-<imagenes/tecnologias/twitter.png, id=586, 1238.6275pt x 679.53876pt>
+<imagenes/tecnologias/twitter.png, id=589, 1238.6275pt x 679.53876pt>
 File: imagenes/tecnologias/twitter.png Graphic file (type png)
 <use imagenes/tecnologias/twitter.png>
 Package pdftex.def Info: imagenes/tecnologias/twitter.png  used on input line 7
@@ -3951,7 +3956,7 @@ Package babel Info: Redefining spanish shorthand "?
  [31
 
 ]
-<misc/class_diagram.pdf, id=595, 597.51233pt x 845.0471pt>
+<misc/class_diagram.pdf, id=598, 597.51233pt x 845.0471pt>
 File: misc/class_diagram.pdf Graphic file (type pdf)
 <use misc/class_diagram.pdf>
 Package pdftex.def Info: misc/class_diagram.pdf  used on input line 8.
@@ -3960,7 +3965,7 @@ File: misc/class_diagram.pdf Graphic file (type pdf)
 <use misc/class_diagram.pdf>
 Package pdftex.def Info: misc/class_diagram.pdf  used on input line 8.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-<misc/class_diagram.pdf, id=598, page=1, 597.51233pt x 845.0471pt>
+<misc/class_diagram.pdf, id=601, page=1, 597.51233pt x 845.0471pt>
 File: misc/class_diagram.pdf Graphic file (type pdf)
 <use misc/class_diagram.pdf, page 1>
 Package pdftex.def Info: misc/class_diagram.pdf , page1 used on input line 8.
@@ -4465,7 +4470,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 46.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 46.
-<prensa/GRANADA_HOY_27_06_2017_b.png, id=665, 345.29pt x 490.83376pt>
+<prensa/GRANADA_HOY_27_06_2017_b.png, id=668, 345.29pt x 490.83376pt>
 File: prensa/GRANADA_HOY_27_06_2017_b.png Graphic file (type png)
 <use prensa/GRANADA_HOY_27_06_2017_b.png>
 Package pdftex.def Info: prensa/GRANADA_HOY_27_06_2017_b.png  used on input lin
@@ -4510,7 +4515,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 56.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 56.
-<prensa/IDEAL_28_06_2017_b.png, id=670, 343.2825pt x 489.83pt>
+<prensa/IDEAL_28_06_2017_b.png, id=673, 343.2825pt x 489.83pt>
 File: prensa/IDEAL_28_06_2017_b.png Graphic file (type png)
 <use prensa/IDEAL_28_06_2017_b.png>
 Package pdftex.def Info: prensa/IDEAL_28_06_2017_b.png  used on input line 59.
@@ -4554,7 +4559,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 66.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 66.
-<prensa/IDEAL_27_07_2017_b.png, id=675, 343.2825pt x 490.83376pt>
+<prensa/IDEAL_27_07_2017_b.png, id=678, 343.2825pt x 490.83376pt>
 File: prensa/IDEAL_27_07_2017_b.png Graphic file (type png)
 <use prensa/IDEAL_27_07_2017_b.png>
 Package pdftex.def Info: prensa/IDEAL_27_07_2017_b.png  used on input line 69.
@@ -4666,13 +4671,13 @@ Package babel Info: Redefining spanish shorthand "?
 [46
 
 ]
-Underfull \hbox (badness 2318) in paragraph at lines 24--28
+Underfull \hbox (badness 2318) in paragraph at lines 29--33
 \T1/bch/m/n/10.95 Bellaterra: Institut de la Comunicació-Universitat Autònoma d
 e
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 48--52
+Underfull \hbox (badness 1466) in paragraph at lines 53--57
 \T1/bch/m/n/10.95 Zagora: Proceedings of 9th International Balkan Education and
 
  []
@@ -4738,7 +4743,7 @@ LaTeX Info: Redefining \% on input line 30.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 358.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 358.
 Package rerunfilecheck Info: File `proyecto.out' has not changed.
-(rerunfilecheck)             Checksum: 69C2E2DE9AD2156FC2884E5C866BB10D;3932.
+(rerunfilecheck)             Checksum: D0928D9D5B3FFF2EB8D8DDE6A22B31E4;3941.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -4746,10 +4751,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 358.
  ) 
 Here is how much of TeX's memory you used:
- 32219 strings out of 494894
- 631370 string characters out of 3178612
- 687342 words of memory out of 3000000
- 35143 multiletter control sequences out of 15000+200000
+ 32217 strings out of 494894
+ 631330 string characters out of 3178612
+ 687337 words of memory out of 3000000
+ 35141 multiletter control sequences out of 15000+200000
  587841 words of font info for 64 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
  55i,21n,64p,1070b,1052s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -4759,9 +4764,9 @@ araluce/.miktex/texmfs/install/fonts/type1/bitstrea/charter/bchb8a.pfb></home/a
 raluce/.miktex/texmfs/install/fonts/type1/bitstrea/charter/bchbi8a.pfb></home/a
 raluce/.miktex/texmfs/install/fonts/type1/bitstrea/charter/bchr8a.pfb></home/ar
 aluce/.miktex/texmfs/install/fonts/type1/bitstrea/charter/bchri8a.pfb>
-Output written on proyecto.pdf (64 pages, 5089403 bytes).
+Output written on proyecto.pdf (64 pages, 5090221 bytes).
 PDF statistics:
- 844 PDF objects out of 1000 (max. 8388607)
+ 848 PDF objects out of 1000 (max. 8388607)
  185 named destinations out of 1000 (max. 500000)
  562 words of extra memory for PDF output out of 10000 (max. 10000000)
 
