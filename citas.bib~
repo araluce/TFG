@@ -1,0 +1,74 @@
+@misc{Introduccion1,
+	title = "\textit{Ideas para jugar en clase y gamificar el aula de ELE}. {V} {F}oro {N}acional de {C}ervantes {E}.{I}",
+	author = "J.Ramón Rodríguez y Patricia Santervás "
+}
+@misc{Motivacion1,
+	title = "\textit{Gamificaci\'on en aulas universitarias}. {B}ellaterra: {I}nstitut de la {C}omunicaci\'o-{U}niversitat {A}ut\`onoma de {B}arcelona.",
+	year = "2016",
+	author = "Contreras, R.S. y Eguia, J.L."
+}
+@misc{Motivacion2,
+	title = "{E}videncia emp\'irica de los motivos del absentismo en los estudiantes universitarios. \textit{{R}evista de {I}nvestigaci\'on en {E}ducaci\'on}, 9 (2), 2011, 76-90",
+	year = "2011",
+	author = "Jorge Moreno J.; Gil; L. Merino, F. y Sanz, M."
+}
+@misc{Motivacion3,
+	title = "{F}rom {G}ame {D}esign {E}lements to {G}amefulness: {D}efining ``Gamification``. \textit{{I}n {P}roceedings of the 15th {I}nternational {A}cademic {M}indTrek {C}onference: {E}nvisioning {F}uture {M}edia {E}nvironments}. {T}ampere: {A}{C}{M}.",
+	year = "2011",
+	author = "Deterding, S., Dixon, D., Khaled, R., y Nacke, L."
+}
+@misc{Motivacion4,
+	title = "{T}\'ecnicas de gamificaci\'on aplicadas en la docencia de {I}ngenier\'ia {I}nform\'atica. \textit{{R}e{V}ision}, 8(1)",
+	year = "2015",
+	author = "Gonz\'alez Gonz\'alez CS, Mora A."
+}
+@misc{Motivacion5,
+	title = "\textit{{G}amification in {E}ducation}. {S}tara {Z}agora: {P}roceedings of 9th {I}nternational {B}alkan {E}ducation and {S}cience {C}onference.",
+	year = "2014",
+	author = "{K}iryakova, {G}., {A}ngelova, {N}. y {Y}ordanova, {L}."
+}
+@misc{Motivacion6,
+	title = "\textit{{E}l uso de la gamificaci\'on en la educaci\'on superior: el caso de trade ruler}. {E}n XII {J}ornadas {I}nternacionales de {I}nnovaci\'on {U}niversitaria {E}ducar para transformar: {A}prendizaje experiencial.",
+	year = "2014",
+	author = "{M}art\'i-{P}arre\~no, {J}., {Q}ueiro-{A}meijeiras, {C}., {M}\'endez-{I}b\'a\~nez, {E}., {G}im\'enez-{F}ita, {E}."
+}
+@misc{Motivacion7,
+	title = "{L}a motivaci\'on para aprender en el espacio europeo de educaci\'on superior. \textit{{C}uadernos de {E}ducaci\'on y {D}esarrollo}, 3 (25).",
+	year = "2011",
+	author = "{M}art\'inez {G}onz\'alez, {J}.{A}."
+}
+@misc{Motivacion8,
+	title = "\textit{{D}igital {G}ame-{B}ased {L}earning}. {N}ew {Y}ork: {M}c{G}raw-{H}ill",
+	year = "2001",
+	author = "{P}rensky, {M}."
+}
+@misc{Motivacion9,
+	title = "\textit{{E}xperiencias de aplicaci\'on de estrategias de gamificaci\'on a entornos de aprendizaje universitario}. {R}e{V}ision, 7(2), 27-43.",
+	year = "2014",
+	author = "{P}rieto {A}, {D}\'iaz {D}, {M}onserrat {J}, {R}eyes {E}."
+}
+
+@manual{Rollbar1,
+	title = "\textit{{R}uby {D}oc}",
+	note = "[Último acceso online el 5-Junio-2018] - \url{https://docs.rollbar.com/docs/ruby}"
+}
+
+@manual{RollbarSingUp,
+	title = "\textit{{R}uby {S}ing {U}p}",
+	note = "[Último acceso online el 12-Junio-2018] - \url{https://rollbar.com/signup}"
+}
+
+@manual{PortMonitor,
+	title = "\textit{{P}ort {M}onitor}",
+	note = "[Último acceso online el 5-Junio-2018] - \url{https://es.port-monitor.com}"
+}
+
+@manual{PortMonitorSingUp,
+title = "\textit{{P}ort {M}onitor {S}ing {U}p}",
+note = "[Último acceso online el 12-Junio-2018] - \url{https://es.port-monitor.com/users/sign-up}"
+}
+
+@manual{Pomodoro,
+	title = "\textit{{P}omodoro {T}imer}",
+	note = "[Último acceso online el 1-Septiembre-2018] - \url{https://pomodoro-tracker.com}"
+}
